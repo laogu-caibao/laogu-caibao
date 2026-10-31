@@ -1,0 +1,6489 @@
+{
+ "schema": "cbfx.ledger/0.1",
+ "meta": {
+  "code": "688825",
+  "name": "长鑫科技",
+  "market": "sh",
+  "company_type": "general",
+  "company_type_cn": "一般工商企业",
+  "target_period": "2026-09-30",
+  "report_type": "Q3",
+  "mode": "quick",
+  "generated_at": "2026-10-31T18:45:31",
+  "tool_version": "0.1.0",
+  "source_status": {
+   "eastmoney": "ok",
+   "sina": "ok"
+  }
+ },
+ "filings": [
+  {
+   "period": "2026-09-30",
+   "type": "Q3",
+   "title": "2026年第三季度报告",
+   "url": "http://static.cninfo.com.cn/finalpage/2026-10-31/1225649723.PDF",
+   "publish_date": "2026-10-31",
+   "announcement_id": "1225649723",
+   "sha1": "053202792e88f192191a2cdd2ec44826154b013e",
+   "size": 218825,
+   "parsed_fields": 56,
+   "audit_opinion": "季报/半年报一般未经审计",
+   "local_file": "filings/2026-09-30_Q3_2026-10-31.pdf"
+  }
+ ],
+ "periods": [
+  "2026-09-30",
+  "2026-06-30",
+  "2026-03-31",
+  "2025-12-31",
+  "2025-09-30",
+  "2025-06-30",
+  "2025-03-31",
+  "2024-12-31",
+  "2024-09-30",
+  "2024-06-30",
+  "2024-03-31",
+  "2023-12-31",
+  "2023-09-30",
+  "2023-06-30",
+  "2023-03-31",
+  "2022-12-31"
+ ],
+ "coverage_target": {
+  "一致": 50,
+  "单一来源": 7
+ },
+ "audit": {
+  "新浪": "未审计",
+  "原文": "季报/半年报一般未经审计"
+ },
+ "fields": {
+  "rev_total": {
+   "name": "营业总收入",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 269024106510.18,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 269024106510.18,
+      "sina": 269024106510.18,
+      "pdf": 269024106510.18
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 150310076758.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 150310076758.0,
+      "sina": 150310076758.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 50800145545.85,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 50800145545.85,
+      "sina": 50800145545.85
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 61799321546.81,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 61799321546.81,
+      "sina": 61799321546.81
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 32083668103.24,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 32083668103.24,
+      "sina": 32083668103.24,
+      "pdf_comparative": 32083668103.24
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 15437924611.51,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 15437924611.51,
+      "sina": 15437924611.51
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 6201690535.94,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 6201690535.94
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 24178248674.03,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 24178248674.03,
+      "sina": 24178248674.03
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 9087147184.13,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 9087147184.13,
+      "sina": 9087147184.13
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 8286544724.63,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 8286544724.63,
+      "sina": 8286544724.63
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "rev": {
+   "name": "营业收入",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 269024106510.18,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 269024106510.18,
+      "sina": 269024106510.18,
+      "pdf": 269024106510.18
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 150310076758.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 150310076758.0,
+      "sina": 150310076758.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 50800145545.85,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 50800145545.85,
+      "sina": 50800145545.85
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 61799321546.81,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 61799321546.81,
+      "sina": 61799321546.81
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 32083668103.24,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 32083668103.24,
+      "sina": 32083668103.24,
+      "pdf_comparative": 32083668103.24
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 15437924611.51,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 15437924611.51,
+      "sina": 15437924611.51
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 6201690535.94,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 6201690535.94
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 24178248674.03,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 24178248674.03,
+      "sina": 24178248674.03
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 9087147184.13,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 9087147184.13,
+      "sina": 9087147184.13
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 8286544724.63,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 8286544724.63,
+      "sina": 8286544724.63
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "cost": {
+   "name": "营业成本",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 35369495475.19,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 35369495475.19,
+      "sina": 35369495475.19,
+      "pdf": 35369495475.19
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 22934480656.8,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 22934480656.8,
+      "sina": 22934480656.8
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 10587996319.55,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 10587996319.55,
+      "sina": 10587996319.55
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 36465406329.12,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 36465406329.12,
+      "sina": 36465406329.12
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 24250939563.8,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 24250939563.8,
+      "sina": 24250939563.8,
+      "pdf_comparative": 24250939563.8
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 13430877836.86,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 13430877836.86,
+      "sina": 13430877836.86
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 5386882851.7,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 5386882851.7
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 22829536568.89,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 22829536568.89,
+      "sina": 22829536568.89
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 9262565994.86,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 9262565994.86,
+      "sina": 9262565994.86
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 8545628607.23,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 8545628607.23,
+      "sina": 8545628607.23
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "tax_surcharge": {
+   "name": "税金及附加",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 2654827957.0,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 2654827957.0,
+      "sina": 2654827957.0,
+      "pdf": 2654827957.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 1287996364.62,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1287996364.62,
+      "sina": 1287996364.62
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 321576466.57,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 321576466.57,
+      "sina": 321576466.57
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 350588987.17,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 350588987.17,
+      "sina": 350588987.17
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 215674942.88,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 215674942.88,
+      "sina": 215674942.88,
+      "pdf_comparative": 215674942.88
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 127484028.7,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 127484028.7,
+      "sina": 127484028.7
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 57557679.45,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 57557679.45
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 182762378.24,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 182762378.24,
+      "sina": 182762378.24
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 106594760.86,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 106594760.86,
+      "sina": 106594760.86
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 97040627.31,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 97040627.31,
+      "sina": 97040627.31
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "sell_exp": {
+   "name": "销售费用",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 380937883.37,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 380937883.37,
+      "sina": 380937883.37,
+      "pdf": 380937883.37
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 223124049.16,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 223124049.16,
+      "sina": 223124049.16
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 78304052.09,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 78304052.09,
+      "sina": 78304052.09
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 337127224.35,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 337127224.35,
+      "sina": 337127224.35
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 238724498.14,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 238724498.14,
+      "sina": 238724498.14,
+      "pdf_comparative": 238724498.14
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 135627434.18,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 135627434.18,
+      "sina": 135627434.18
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 64315663.18,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 64315663.18
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 223974021.91,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 223974021.91,
+      "sina": 223974021.91
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 171096520.18,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 171096520.18,
+      "sina": 171096520.18
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 105738649.9,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 105738649.9,
+      "sina": 105738649.9
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "admin_exp": {
+   "name": "管理费用",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 2174356926.06,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 2174356926.06,
+      "sina": 2174356926.06,
+      "pdf": 2174356926.06
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 1362716133.14,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1362716133.14,
+      "sina": 1362716133.14
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 482875976.36,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 482875976.36,
+      "sina": 482875976.36
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 6630922259.23,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 6630922259.23,
+      "sina": 6630922259.23
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 5915034544.28,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 5915034544.28,
+      "sina": 5915034544.28,
+      "pdf_comparative": 5915034544.28
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 986318492.73,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 986318492.73,
+      "sina": 986318492.73
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 498586176.25,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 498586176.25
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 2358314546.15,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2358314546.15,
+      "sina": 2358314546.15
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 2274677309.15,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2274677309.15,
+      "sina": 2274677309.15
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 871627994.88,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 871627994.88,
+      "sina": 871627994.88
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "rd_exp": {
+   "name": "研发费用",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 8730751360.74,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 8730751360.74,
+      "sina": 8730751360.74,
+      "pdf": 8730751360.74
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 5537435820.6,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 5537435820.6,
+      "sina": 5537435820.6
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 2153993428.53,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2153993428.53,
+      "sina": 2153993428.53
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 9593254617.13,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 9593254617.13,
+      "sina": 9593254617.13
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 6398444668.81,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 6398444668.81,
+      "sina": 6398444668.81,
+      "pdf_comparative": 6398444668.81
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 3660728016.75,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 3660728016.75,
+      "sina": 3660728016.75
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 1735647788.11,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 1735647788.11
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 4607283459.75,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 4607283459.75,
+      "sina": 4607283459.75
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 4520470733.55,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 4520470733.55,
+      "sina": 4520470733.55
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 2486388251.61,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2486388251.61,
+      "sina": 2486388251.61
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "fin_exp": {
+   "name": "财务费用",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 3636290518.73,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 3636290518.73,
+      "sina": 3636290518.73,
+      "pdf": 3636290518.73
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 2429864979.72,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2429864979.72,
+      "sina": 2429864979.72
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 1191885794.16,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1191885794.16,
+      "sina": 1191885794.16
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 2953752257.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2953752257.0,
+      "sina": 2953752257.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 1798711820.2,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 1798711820.2,
+      "sina": 1798711820.2,
+      "pdf_comparative": 1798711820.2
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 951977422.82,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 951977422.82,
+      "sina": 951977422.82
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 403275931.49,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 403275931.49
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 2204283035.62,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2204283035.62,
+      "sina": 2204283035.62
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 1934447982.46,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1934447982.46,
+      "sina": 1934447982.46
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 1795671040.22,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1795671040.22,
+      "sina": 1795671040.22
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "int_exp": {
+   "name": "利息费用",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 2095549707.72,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 2095549707.72,
+      "sina": 2095549707.72,
+      "pdf": 2095549707.72
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 1417221490.58,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1417221490.58,
+      "sina": 1417221490.58
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 769818795.16,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 769818795.16,
+      "sina": 769818795.16
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 2989197168.22,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2989197168.22,
+      "sina": 2989197168.22
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 2201998124.72,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 2201998124.72,
+      "sina": 2201998124.72,
+      "pdf_comparative": 2201998124.72
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 1457432043.14,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1457432043.14,
+      "sina": 1457432043.14
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 718529925.09,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 718529925.09
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 2669163046.07,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2669163046.07,
+      "sina": 2669163046.07
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 2340681058.31,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2340681058.31,
+      "sina": 2340681058.31
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 1187066805.67,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1187066805.67,
+      "sina": 1187066805.67
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "int_inc": {
+   "name": "利息收入",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 924675159.07,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 924675159.07,
+      "sina": 924675159.07,
+      "pdf": 924675159.07
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 462368125.92,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 462368125.92,
+      "sina": 462368125.92
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 197568696.45,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 197568696.45,
+      "sina": 197568696.45
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 571112006.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 571112006.0,
+      "sina": 571112006.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 445995948.53,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 445995948.53,
+      "sina": 445995948.53,
+      "pdf_comparative": 445995948.53
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 320734454.34,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 320734454.34,
+      "sina": 320734454.34
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 183624750.97,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 183624750.97
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 806691032.08,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 806691032.08,
+      "sina": 806691032.08
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 663283633.19,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 663283633.19,
+      "sina": 663283633.19
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 531934875.29,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 531934875.29,
+      "sina": 531934875.29
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "other_inc": {
+   "name": "其他收益",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 3582446314.52,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 3582446314.52,
+      "sina": 3582446314.52,
+      "pdf": 3582446314.52
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 2179909716.33,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2179909716.33,
+      "sina": 2179909716.33
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 1093857020.56,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1093857020.56,
+      "sina": 1093857020.56
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 2690659755.13,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2690659755.13,
+      "sina": 2690659755.13
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 1463766909.12,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 1463766909.12,
+      "sina": 1463766909.12,
+      "pdf_comparative": 1463766909.12
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 911995321.15,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 911995321.15,
+      "sina": 911995321.15
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 195342392.88,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 195342392.88
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 1800301838.28,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1800301838.28,
+      "sina": 1800301838.28
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 1642025997.38,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1642025997.38,
+      "sina": 1642025997.38
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 409658378.99,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 409658378.99,
+      "sina": 409658378.99
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "invest_inc": {
+   "name": "投资收益",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 2014730608.79,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 2014730608.79,
+      "sina": 2014730608.79,
+      "pdf": 2014730608.79
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 1596359945.13,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1596359945.13,
+      "sina": 1596359945.13
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 898361645.18,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 898361645.18,
+      "sina": 898361645.18
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": -68122701.9,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -68122701.9,
+      "sina": -68122701.9
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": -125049697.12,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -125049697.12,
+      "sina": -125049697.12,
+      "pdf_comparative": -125049697.12
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": -50799971.5,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -50799971.5,
+      "sina": -50799971.5
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": -29002568.49,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": -29002568.49
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 104943374.82,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 104943374.82,
+      "sina": 104943374.82
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -17882097.25,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -17882097.25,
+      "sina": -17882097.25
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -307333346.47,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -307333346.47,
+      "sina": -307333346.47
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "fv_chg": {
+   "name": "公允价值变动收益",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": -4698711649.02,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": -4698711649.02,
+      "sina": -4698711649.02,
+      "pdf": -4698711649.02
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2026-06-30": {
+     "value": -2948757922.11,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -2948757922.11,
+      "sina": -2948757922.11
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": -2633811537.87,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -2633811537.87,
+      "sina": -2633811537.87
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 371531398.2,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 371531398.2,
+      "sina": 371531398.2
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 48502272.28,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 48502272.28,
+      "sina": 48502272.28,
+      "pdf_comparative": 48502272.28
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2025-06-30": {
+     "value": -309762517.92,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -309762517.92,
+      "sina": -309762517.92
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": -192578457.36,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": -192578457.36
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -177617694.63,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -177617694.63,
+      "sina": -177617694.63
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -343729.81,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -343729.81,
+      "sina": -343729.81
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 671119189.55,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 671119189.55,
+      "sina": 671119189.55
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "credit_impair": {
+   "name": "信用减值损失",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": -38016457.21,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": -38016457.21,
+      "sina": -38016457.21,
+      "pdf": -38016457.21
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2026-06-30": {
+     "value": -23434796.82,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -23434796.82,
+      "sina": -23434796.82
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": -7195041.57,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -7195041.57,
+      "sina": -7195041.57
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 886271.19,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 886271.19,
+      "sina": 886271.19
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": -90729.08,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -90729.08,
+      "sina": -90729.08,
+      "pdf_comparative": -90729.08
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2025-06-30": {
+     "value": 3115571.19,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 3115571.19,
+      "sina": 3115571.19
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 4735414.41,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 4735414.41
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -8673598.99,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -8673598.99,
+      "sina": -8673598.99
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -2841558.29,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -2841558.29,
+      "sina": -2841558.29
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 3543232.5,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 3543232.5
+     },
+     "usable": true
+    }
+   }
+  },
+  "asset_impair": {
+   "name": "资产减值损失",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": -882804063.54,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": -882804063.54,
+      "sina": -882804063.54,
+      "pdf": -882804063.54
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2026-06-30": {
+     "value": -276167711.98,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -276167711.98,
+      "sina": -276167711.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 61259089.92,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 61259089.92,
+      "sina": 61259089.92
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": -754660087.34,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -754660087.34,
+      "sina": -754660087.34
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": -637484085.76,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -637484085.76,
+      "sina": -637484085.76,
+      "pdf_comparative": -637484085.76
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2025-06-30": {
+     "value": -795632316.48,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -795632316.48,
+      "sina": -795632316.48
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": -864967127.06,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": -864967127.06
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -2464124303.95,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -2464124303.95,
+      "sina": -2464124303.95
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -11779279013.44,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -11779279013.44,
+      "sina": -11779279013.44
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -4371175058.77,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -4371175058.77,
+      "sina": -4371175058.77
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "op_profit": {
+   "name": "营业利润",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 216183861515.05,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 216183861515.05,
+      "sina": 216183861515.05,
+      "pdf": 216183861515.05
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2026-06-30": {
+     "value": 117144393635.04,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 117144393635.04,
+      "sina": 117144393635.04
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 35432982407.78,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 35432982407.78,
+      "sina": 35432982407.78
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 7720709304.45,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 7720709304.45,
+      "sina": 7720709304.45
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": -5968634618.28,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -5968634618.28,
+      "sina": -5968634618.28,
+      "pdf_comparative": -5968634618.28
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2025-06-30": {
+     "value": -4093701489.43,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -4093701489.43,
+      "sina": -4093701489.43
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": -2830614153.61,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": -2830614153.61
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -8968756605.63,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -8968756605.63,
+      "sina": -8968756605.63
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -19341000268.85,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -19341000268.85,
+      "sina": -19341000268.85
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -9209738050.72,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -9209738050.72,
+      "sina": -9209738050.72
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "total_profit": {
+   "name": "利润总额",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 216186993092.28,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 216186993092.28,
+      "sina": 216186993092.28,
+      "pdf": 216186993092.28
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2026-06-30": {
+     "value": 117145441342.17,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 117145441342.17,
+      "sina": 117145441342.17
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 35434285339.56,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 35434285339.56,
+      "sina": 35434285339.56
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 7701117781.22,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 7701117781.22,
+      "sina": 7701117781.22
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": -5979344241.42,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -5979344241.42,
+      "sina": -5979344241.42,
+      "pdf_comparative": -5979344241.42
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2025-06-30": {
+     "value": -4086539257.89,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -4086539257.89,
+      "sina": -4086539257.89
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": -2824665016.51,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": -2824665016.51
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -9048657128.32,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -9048657128.32,
+      "sina": -9048657128.32
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -19223099295.72,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -19223099295.72,
+      "sina": -19223099295.72
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -9169885267.02,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -9169885267.02,
+      "sina": -9169885267.02
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "income_tax": {
+   "name": "所得税费用",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 19654704254.6,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 19654704254.6,
+      "sina": 19654704254.6,
+      "pdf": 19654704254.6
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2026-06-30": {
+     "value": 9595850238.52,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 9595850238.52,
+      "sina": 9595850238.52
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 2422760242.71,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2422760242.71,
+      "sina": 2422760242.71
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 556880633.23,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 556880633.23,
+      "sina": 556880633.23
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 917717.99,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 917717.99,
+      "sina": 917717.99,
+      "pdf_comparative": 917717.99
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2025-06-30": {
+     "value": 979318.09,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 979318.09,
+      "sina": 979318.09
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 578676.2,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 578676.2
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 2343308.87,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2343308.87,
+      "sina": 2343308.87
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 1787036.03,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1787036.03,
+      "sina": 1787036.03
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 1200566.57,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1200566.57,
+      "sina": 1200566.57
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "np": {
+   "name": "净利润",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 196532288837.68,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 196532288837.68,
+      "sina": 196532288837.68,
+      "pdf": 196532288837.68
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2026-06-30": {
+     "value": 107549591103.65,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 107549591103.65,
+      "sina": 107549591103.65
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 33011525096.85,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 33011525096.85,
+      "sina": 33011525096.85
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 7144237147.99,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 7144237147.99,
+      "sina": 7144237147.99
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": -5980261959.41,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -5980261959.41,
+      "sina": -5980261959.41,
+      "pdf_comparative": -5980261959.41
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2025-06-30": {
+     "value": -4087518575.98,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -4087518575.98,
+      "sina": -4087518575.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": -2825243692.71,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": -2825243692.71
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -9051000437.19,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -9051000437.19,
+      "sina": -9051000437.19
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -19224886331.75,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -19224886331.75,
+      "sina": -19224886331.75
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -9171085833.59,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -9171085833.59,
+      "sina": -9171085833.59
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "np_parent": {
+   "name": "归母净利润",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 132040054067.23,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 132040054067.23,
+      "sina": 132040054067.23,
+      "pdf": 132040054067.23
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2026-06-30": {
+     "value": 77605227520.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 77605227520.0,
+      "sina": 77605227520.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 24762031466.04,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 24762031466.04,
+      "sina": 24762031466.04
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 1874859379.01,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1874859379.01,
+      "sina": 1874859379.01
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": -5279974921.47,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -5279974921.47,
+      "sina": -5279974921.47,
+      "pdf_comparative": -5279974921.47
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2025-06-30": {
+     "value": -2332058185.65,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -2332058185.65,
+      "sina": -2332058185.65
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": -1559027880.1,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": -1559027880.1
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -7144887248.88,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -7144887248.88,
+      "sina": -7144887248.88
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -16339777193.36,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -16339777193.36,
+      "sina": -16339777193.36
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -8328003920.35,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -8328003920.35,
+      "sina": -8328003920.35
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "minority_pl": {
+   "name": "少数股东损益",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 64492234770.45,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 64492234770.45,
+      "sina": 64492234770.45,
+      "pdf": 64492234770.45
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2026-06-30": {
+     "value": 29944363583.65,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 29944363583.65,
+      "sina": 29944363583.65
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 8249493630.81,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 8249493630.81,
+      "sina": 8249493630.81
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 5269377768.98,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 5269377768.98,
+      "sina": 5269377768.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": -700287037.94,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -700287037.94,
+      "sina": -700287037.94,
+      "pdf_comparative": -700287037.94
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 10
+    },
+    "2025-06-30": {
+     "value": -1755460390.33,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -1755460390.33,
+      "sina": -1755460390.33
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": -1266215812.61,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": -1266215812.61
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -1906113188.31,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -1906113188.31,
+      "sina": -1906113188.31
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -2885109138.39,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -2885109138.39,
+      "sina": -2885109138.39
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -843081913.24,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -843081913.24,
+      "sina": -843081913.24
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "np_ded": {
+   "name": "扣非归母净利润",
+   "statement": "is",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 134030144143.37,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 134030144143.37
+     },
+     "usable": true
+    },
+    "2026-06-30": {
+     "value": 78793025367.21,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 78793025367.21
+     },
+     "usable": true
+    },
+    "2026-03-31": {
+     "value": 26340784067.59,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 26340784067.59
+     },
+     "usable": true
+    },
+    "2025-12-31": {
+     "value": 5315886168.87,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 5315886168.87
+     },
+     "usable": true
+    },
+    "2025-09-30": {
+     "value": -1062085300.0,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -1062085300.0
+     },
+     "usable": true
+    },
+    "2025-06-30": {
+     "value": -2386538410.69,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -2386538410.69
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -7870032340.22,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -7870032340.22
+     },
+     "usable": true
+    },
+    "2023-12-31": {
+     "value": -16752003819.4,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -16752003819.4
+     },
+     "usable": true
+    },
+    "2022-12-31": {
+     "value": -8625860031.66,
+     "status": "单一来源",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -8625860031.66
+     },
+     "usable": true
+    }
+   }
+  },
+  "cash": {
+   "name": "货币资金",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 285164795853.74,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 285164795853.74,
+      "sina": 285164795853.74,
+      "pdf": 285164795853.74
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 6
+    },
+    "2026-06-30": {
+     "value": 143426479729.06,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 143426479729.06,
+      "sina": 143426479729.06
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 84735454718.72,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 84735454718.72,
+      "sina": 84735454718.72
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 51990220162.31,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 51990220162.31,
+      "sina": 51990220162.31,
+      "pdf_comparative": 51990220162.31
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 6
+    },
+    "2025-06-30": {
+     "value": 42922448866.36,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 42922448866.36,
+      "sina": 42922448866.36
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 42698683658.53,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 42698683658.53,
+      "sina": 42698683658.53
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 31373547153.52,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 31373547153.52,
+      "sina": 31373547153.52
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 32072404149.51,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 32072404149.51,
+      "sina": 32072404149.51
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "notes_rec": {
+   "name": "应收票据",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf",
+     "sources": {
+      "pdf": 0.0
+     },
+     "usable": true,
+     "pdf_page": 6
+    },
+    "2025-12-31": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "pdf_comparative": 0.0
+     },
+     "usable": true,
+     "pdf_page": 6
+    }
+   }
+  },
+  "ar": {
+   "name": "应收账款",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 9310486183.37,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 9310486183.37,
+      "sina": 9310486183.37,
+      "pdf": 9310486183.37
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 6
+    },
+    "2026-06-30": {
+     "value": 6653098783.44,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 6653098783.44,
+      "sina": 6653098783.44
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 2915196553.13,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2915196553.13,
+      "sina": 2915196553.13
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 1523740591.27,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 1523740591.27,
+      "sina": 1523740591.27,
+      "pdf_comparative": 1523740591.27
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 6
+    },
+    "2025-06-30": {
+     "value": 1161542608.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1161542608.0,
+      "sina": 1161542608.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 1845888030.46,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1845888030.46,
+      "sina": 1845888030.46
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 398716292.54,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 398716292.54,
+      "sina": 398716292.54
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 123502998.4,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 123502998.4,
+      "sina": 123502998.4
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "rec_fin": {
+   "name": "应收款项融资",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf",
+     "sources": {
+      "pdf": 0.0
+     },
+     "usable": true,
+     "pdf_page": 6
+    },
+    "2026-06-30": {
+     "value": 245901961.15,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 245901961.15,
+      "sina": 245901961.15
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "pdf_comparative": 0.0
+     },
+     "usable": true,
+     "pdf_page": 6
+    }
+   }
+  },
+  "prepay": {
+   "name": "预付款项",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 181132873.54,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 181132873.54,
+      "sina": 181132873.54,
+      "pdf": 181132873.54
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 6
+    },
+    "2026-06-30": {
+     "value": 193560264.79,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 193560264.79,
+      "sina": 193560264.79
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 87708801.54,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 87708801.54,
+      "sina": 87708801.54
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 93086203.11,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 93086203.11,
+      "sina": 93086203.11,
+      "pdf_comparative": 93086203.11
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 6
+    },
+    "2025-06-30": {
+     "value": 115907484.5,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 115907484.5,
+      "sina": 115907484.5
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 109977944.68,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 109977944.68,
+      "sina": 109977944.68
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 161816978.57,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 161816978.57,
+      "sina": 161816978.57
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 237884452.06,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 237884452.06,
+      "sina": 237884452.06
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "other_rec": {
+   "name": "其他应收款",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 347904076.5,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 347904076.5,
+      "sina": 347904076.5,
+      "pdf": 347904076.5
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 6
+    },
+    "2026-06-30": {
+     "value": 224716076.2,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 224716076.2,
+      "sina": 224716076.2
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 271073865.96,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 271073865.96,
+      "sina": 271073865.96
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 170527966.7,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 170527966.7,
+      "sina": 170527966.7,
+      "pdf_comparative": 170527966.7
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 6
+    },
+    "2025-06-30": {
+     "value": 101710592.45,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 101710592.45,
+      "sina": 101710592.45
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 144174207.36,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 144174207.36,
+      "sina": 144174207.36
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 786769498.24,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 786769498.24,
+      "sina": 786769498.24
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 213502796.18,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 213502796.18,
+      "sina": 213502796.18
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "inv": {
+   "name": "存货",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 39227183359.56,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 39227183359.56,
+      "sina": 39227183359.56,
+      "pdf": 39227183359.56
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 35129620577.4,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 35129620577.4,
+      "sina": 35129620577.4
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 31882698802.23,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 31882698802.23,
+      "sina": 31882698802.23
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 28567686719.81,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 28567686719.81,
+      "sina": 28567686719.81,
+      "pdf_comparative": 28567686719.81
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-06-30": {
+     "value": 26086418478.33,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 26086418478.33,
+      "sina": 26086418478.33
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 18549529584.42,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 18549529584.42,
+      "sina": 18549529584.42
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 10736177312.42,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 10736177312.42,
+      "sina": 10736177312.42
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 6916736143.01,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 6916736143.01,
+      "sina": 6916736143.01
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "contract_asset": {
+   "name": "合同资产",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf",
+     "sources": {
+      "pdf": 0.0
+     },
+     "usable": true,
+     "pdf_page": 7
+    },
+    "2025-12-31": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "pdf_comparative": 0.0
+     },
+     "usable": true,
+     "pdf_page": 7
+    }
+   }
+  },
+  "lt_equity_inv": {
+   "name": "长期股权投资",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 2780128238.14,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 2780128238.14,
+      "sina": 2780128238.14,
+      "pdf": 2780128238.14
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 2267457546.02,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2267457546.02,
+      "sina": 2267457546.02
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 1547997633.65,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1547997633.65,
+      "sina": 1547997633.65
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 1519540603.53,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 1519540603.53,
+      "sina": 1519540603.53,
+      "pdf_comparative": 1519540603.53
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-06-30": {
+     "value": 284937585.58,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 284937585.58,
+      "sina": 284937585.58
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 299855528.29,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 299855528.29,
+      "sina": 299855528.29
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "fixed": {
+   "name": "固定资产",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 184899956594.73,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 184899956594.73,
+      "sina": 184899956594.72998,
+      "pdf": 184899956594.73
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 181563429601.24,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 181563429601.24,
+      "sina": 181563429601.24
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 181416316775.15,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 181416316775.15,
+      "sina": 181416316775.15002
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 183023987914.04,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 183023987914.04,
+      "sina": 183023987914.04,
+      "pdf_comparative": 183023987914.04
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-06-30": {
+     "value": 171593342320.69,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 171593342320.69,
+      "sina": 171593342320.68997
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 153132015998.9,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 153132015998.9,
+      "sina": 153132015998.9
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 84452072919.36,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 84452072919.36,
+      "sina": 84452072919.36
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 68015605666.87,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 68015605666.87,
+      "sina": 68015605666.87
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "cip": {
+   "name": "在建工程",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 44234751663.98,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 44234751663.98,
+      "sina": 44234751663.98,
+      "pdf": 44234751663.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 36777895056.17,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 36777895056.17,
+      "sina": 36777895056.17
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 35148957275.79,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 35148957275.79,
+      "sina": 35148957275.79
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 31789621728.55,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 31789621728.55,
+      "sina": 31789621728.55,
+      "pdf_comparative": 31789621728.55
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-06-30": {
+     "value": 32296550123.71,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 32296550123.71,
+      "sina": 32296550123.71
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 41208688675.4,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 41208688675.4,
+      "sina": 41208688675.4
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 51502550126.59,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 51502550126.59,
+      "sina": 51502550126.59
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 26562498165.96,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 26562498165.96,
+      "sina": 26562498165.96
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "intangible": {
+   "name": "无形资产",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 3886773222.4,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 3886773222.4,
+      "sina": 3886773222.4,
+      "pdf": 3886773222.4
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 4036333186.83,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 4036333186.83,
+      "sina": 4036333186.83
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 4255223140.17,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 4255223140.17,
+      "sina": 4255223140.17
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 4277557353.98,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 4277557353.98,
+      "sina": 4277557353.98,
+      "pdf_comparative": 4277557353.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-06-30": {
+     "value": 4898907968.33,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 4898907968.33,
+      "sina": 4898907968.33
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 5153411865.98,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 5153411865.98,
+      "sina": 5153411865.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 4453181548.81,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 4453181548.81,
+      "sina": 4453181548.81
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 5501387662.75,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 5501387662.75,
+      "sina": 5501387662.75
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "goodwill": {
+   "name": "商誉",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf",
+     "sources": {
+      "pdf": 0.0
+     },
+     "usable": true,
+     "pdf_page": 7
+    },
+    "2025-12-31": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "pdf_comparative": 0.0
+     },
+     "usable": true,
+     "pdf_page": 7
+    }
+   }
+  },
+  "ta": {
+   "name": "资产总计",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 672535210198.62,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 672535210198.62,
+      "sina": 672535210198.62,
+      "pdf": 672535210198.62
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 468077863007.24,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 468077863007.24,
+      "sina": 468077863007.24
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 388166148661.24,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 388166148661.24,
+      "sina": 388166148661.24
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 336784922216.18,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 336784922216.18,
+      "sina": 336784922216.18,
+      "pdf_comparative": 336784922216.18
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-09-30": {
+     "value": 302873971800.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 302873971800.0,
+      "sina": 302873971800.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-06-30": {
+     "value": 289902470198.46,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 289902470198.46,
+      "sina": 289902470198.46
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 271598831026.52,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 271598831026.52,
+      "sina": 271598831026.52
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 192756332790.52,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 192756332790.52,
+      "sina": 192756332790.52
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 147693939179.29,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 147693939179.29,
+      "sina": 147693939179.28998
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "st_loan": {
+   "name": "短期借款",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 22052298208.9,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 22052298208.9,
+      "sina": 22052298208.9,
+      "pdf": 22052298208.9
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 11146749575.3,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 11146749575.3,
+      "sina": 11146749575.3
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 13378123133.23,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 13378123133.23,
+      "sina": 13378123133.23
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 9675900538.61,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 9675900538.61,
+      "sina": 9675900538.61,
+      "pdf_comparative": 9675900538.61
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-06-30": {
+     "value": 2197230715.59,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2197230715.59,
+      "sina": 2197230715.59
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 1796482216.39,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1796482216.39,
+      "sina": 1796482216.39
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 1999224812.5,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1999224812.5,
+      "sina": 1999224812.5
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 4493157125.87,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 4493157125.87,
+      "sina": 4493157125.87
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "notes_pay": {
+   "name": "应付票据",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 2383714447.82,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 2383714447.82,
+      "sina": 2383714447.82,
+      "pdf": 2383714447.82
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 2453440830.95,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2453440830.95,
+      "sina": 2453440830.95
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 2558566339.34,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2558566339.34,
+      "sina": 2558566339.34
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 2014972432.8,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 2014972432.8,
+      "sina": 2014972432.8,
+      "pdf_comparative": 2014972432.8
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-06-30": {
+     "value": 747603447.92,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 747603447.92,
+      "sina": 747603447.92
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 1616667821.01,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1616667821.01,
+      "sina": 1616667821.01
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 667493744.77,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 667493744.77,
+      "sina": 667493744.77
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "ap": {
+   "name": "应付账款",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 10384163450.67,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 10384163450.67,
+      "sina": 10384163450.67,
+      "pdf": 10384163450.67
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 8585976111.65,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 8585976111.65,
+      "sina": 8585976111.65
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 7366121144.6,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 7366121144.6,
+      "sina": 7366121144.6
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 6686718640.72,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 6686718640.72,
+      "sina": 6686718640.72,
+      "pdf_comparative": 6686718640.72
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-06-30": {
+     "value": 5783652881.69,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 5783652881.69,
+      "sina": 5783652881.69
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 4658275618.19,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 4658275618.19,
+      "sina": 4658275618.19
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 3659329614.09,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 3659329614.09,
+      "sina": 3659329614.09
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 3148900176.47,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 3148900176.47,
+      "sina": 3148900176.47
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "adv_rec": {
+   "name": "预收款项",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf",
+     "sources": {
+      "pdf": 0.0
+     },
+     "usable": true,
+     "pdf_page": 7
+    },
+    "2025-12-31": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "pdf_comparative": 0.0
+     },
+     "usable": true,
+     "pdf_page": 7
+    }
+   }
+  },
+  "contract_liab": {
+   "name": "合同负债",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 7036358019.61,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 7036358019.61,
+      "sina": 7036358019.61,
+      "pdf": 7036358019.61
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2026-06-30": {
+     "value": 1255560706.48,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1255560706.48,
+      "sina": 1255560706.48
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 3501422316.83,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 3501422316.83,
+      "sina": 3501422316.83
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 447177358.0,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 447177358.0,
+      "sina": 447177358.0,
+      "pdf_comparative": 447177358.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 7
+    },
+    "2025-06-30": {
+     "value": 370589684.46,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 370589684.46,
+      "sina": 370589684.46
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 141228750.32,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 141228750.32,
+      "sina": 141228750.32
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 116555583.06,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 116555583.06,
+      "sina": 116555583.06
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 147251508.44,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 147251508.44,
+      "sina": 147251508.44
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "ncl_1y": {
+   "name": "一年内到期的非流动负债",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 17852460242.13,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 17852460242.13,
+      "sina": 17852460242.13,
+      "pdf": 17852460242.13
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2026-06-30": {
+     "value": 19641148870.67,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 19641148870.67,
+      "sina": 19641148870.67
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 21347830128.27,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 21347830128.27,
+      "sina": 21347830128.27
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 17967700611.68,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 17967700611.68,
+      "sina": 17967700611.68,
+      "pdf_comparative": 17967700611.68
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2025-06-30": {
+     "value": 9536593448.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 9536593448.0,
+      "sina": 9536593448.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 31298700879.53,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 31298700879.53,
+      "sina": 31298700879.53
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 9317029174.61,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 9317029174.61,
+      "sina": 9317029174.61
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 3288824324.15,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 3288824324.15,
+      "sina": 3288824324.15
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "lt_loan": {
+   "name": "长期借款",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 97765663829.7,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 97765663829.7,
+      "sina": 97765663829.7,
+      "pdf": 97765663829.7
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2026-06-30": {
+     "value": 109663011997.9,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 109663011997.9,
+      "sina": 109663011997.9
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 116762926791.9,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 116762926791.9,
+      "sina": 116762926791.9
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 118825342726.71,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 118825342726.71,
+      "sina": 118825342726.71,
+      "pdf_comparative": 118825342726.71
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2025-06-30": {
+     "value": 120791798649.3,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 120791798649.3,
+      "sina": 120791798649.3
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 95993810675.95,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 95993810675.95,
+      "sina": 95993810675.95
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 89823176319.76,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 89823176319.76,
+      "sina": 89823176319.76
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 61241191196.55,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 61241191196.55,
+      "sina": 61241191196.55
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "bonds": {
+   "name": "应付债券",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf",
+     "sources": {
+      "pdf": 0.0
+     },
+     "usable": true,
+     "pdf_page": 8
+    },
+    "2025-12-31": {
+     "value": 0.0,
+     "status": "单一来源",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "pdf_comparative": 0.0
+     },
+     "usable": true,
+     "pdf_page": 8
+    }
+   }
+  },
+  "lease_liab": {
+   "name": "租赁负债",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 269508724.12,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 269508724.12,
+      "sina": 269508724.12,
+      "pdf": 269508724.12
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2026-06-30": {
+     "value": 100683940.95,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 100683940.95,
+      "sina": 100683940.95
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 62950261.5,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 62950261.5,
+      "sina": 62950261.5
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 63634453.02,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 63634453.02,
+      "sina": 63634453.02,
+      "pdf_comparative": 63634453.02
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2025-06-30": {
+     "value": 91689279.51,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 91689279.51,
+      "sina": 91689279.51
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 70458030.61,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 70458030.61,
+      "sina": 70458030.61
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 102050615.07,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 102050615.07,
+      "sina": 102050615.07
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 35108916.71,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 35108916.71,
+      "sina": 35108916.71
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "tl": {
+   "name": "负债合计",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 244385126458.98,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 244385126458.98,
+      "sina": 244385126458.98,
+      "pdf": 244385126458.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2026-06-30": {
+     "value": 197328796624.96,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 197328796624.96,
+      "sina": 197328796624.96
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 196561226764.98,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 196561226764.98,
+      "sina": 196561226764.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 182684982794.1,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 182684982794.1,
+      "sina": 182684982794.1,
+      "pdf_comparative": 182684982794.1
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2025-09-30": {
+     "value": 172804977800.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 172804977800.0,
+      "sina": 172804977800.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-06-30": {
+     "value": 167118921456.75,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 167118921456.75,
+      "sina": 167118921456.75003
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 167341953553.94,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 167341953553.94,
+      "sina": 167341953553.94
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 127642949977.86,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 127642949977.86,
+      "sina": 127642949977.86
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 83477602778.77,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 83477602778.77,
+      "sina": 83477602778.77
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "eq_parent": {
+   "name": "归母所有者权益",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 256876312185.38,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 256876312185.38,
+      "sina": 256876312185.38,
+      "pdf": 256876312185.38
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 134721744262.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 134721744262.0,
+      "sina": 134721744262.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 81724408917.3,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 81724408917.3,
+      "sina": 81724408917.3
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 56753704224.63,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 56753704224.63,
+      "sina": 56753704224.63,
+      "pdf_comparative": 56753704224.63
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-09-30": {
+     "value": 49364391500.0,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 49364391500.0,
+      "sina": 49364391500.0
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-06-30": {
+     "value": 46552216520.19,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 46552216520.19,
+      "sina": 46552216520.19
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 41419661577.96,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 41419661577.96,
+      "sina": 41419661577.96
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 35595349947.4,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 35595349947.4,
+      "sina": 35595349947.4
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 49671675996.48,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 49671675996.48,
+      "sina": 49671675996.48
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "minority_eq": {
+   "name": "少数股东权益",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 171273771554.26,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 171273771554.26,
+      "sina": 171273771554.26,
+      "pdf": 171273771554.26
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 136027322120.28,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 136027322120.28,
+      "sina": 136027322120.28
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 109880512978.96,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 109880512978.96,
+      "sina": 109880512978.96
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 97346235197.45,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 97346235197.45,
+      "sina": 97346235197.45,
+      "pdf_comparative": 97346235197.45
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-06-30": {
+     "value": 76231332221.52,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 76231332221.52,
+      "sina": 76231332221.52
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 62837215894.62,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 62837215894.62,
+      "sina": 62837215894.62
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 29518032865.26,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 29518032865.26,
+      "sina": 29518032865.26
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 14544660404.04,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 14544660404.04,
+      "sina": 14544660404.04
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "eq_total": {
+   "name": "所有者权益合计",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 428150083739.64,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 428150083739.64,
+      "sina": 428150083739.64,
+      "pdf": 428150083739.64
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2026-06-30": {
+     "value": 270749066382.28,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 270749066382.28,
+      "sina": 270749066382.28
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 191604921896.26,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 191604921896.26,
+      "sina": 191604921896.26
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 154099939422.08,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 154099939422.08,
+      "sina": 154099939422.08,
+      "pdf_comparative": 154099939422.08
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 9
+    },
+    "2025-09-30": {
+     "value": 130068994000.0,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 130068994000.0
+     },
+     "usable": true
+    },
+    "2025-06-30": {
+     "value": 122783548741.71,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 122783548741.71,
+      "sina": 122783548741.71
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": 104256877472.58,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 104256877472.58,
+      "sina": 104256877472.58
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 65113382812.66,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 65113382812.66,
+      "sina": 65113382812.66
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 64216336400.52,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 64216336400.52,
+      "sina": 64216336400.52
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "undist": {
+   "name": "未分配利润",
+   "statement": "bs",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 95389632973.21,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 95389632973.21,
+      "sina": 95389632973.21,
+      "pdf": 95389632973.21
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2026-06-30": {
+     "value": 40954806425.98,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 40954806425.98,
+      "sina": 40954806425.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": -11888389627.98,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -11888389627.98,
+      "sina": -11888389627.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": -36650421094.02,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -36650421094.02,
+      "sina": -36650421094.02,
+      "pdf_comparative": -36650421094.02
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 8
+    },
+    "2025-06-30": {
+     "value": -40857338658.68,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -40857338658.68,
+      "sina": -40857338658.68
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2024-12-31": {
+     "value": -38522001027.93,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -38522001027.93,
+      "sina": -38522001027.93
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -31377113779.05,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -31377113779.05,
+      "sina": -31377113779.05
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -17629149846.03,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -17629149846.03,
+      "sina": -17629149846.03
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "sales_cash": {
+   "name": "销售商品、提供劳务收到的现金",
+   "statement": "cf",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 277386381340.73,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 277386381340.73,
+      "sina": 277386381340.73,
+      "pdf": 277386381340.73
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 11
+    },
+    "2026-06-30": {
+     "value": 152077459952.82,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 152077459952.82,
+      "sina": 152077459952.82
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 54541245127.03,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 54541245127.03,
+      "sina": 54541245127.03
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 65606061705.44,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 65606061705.44,
+      "sina": 65606061705.44
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 34379336966.58,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 34379336966.58,
+      "sina": 34379336966.58,
+      "pdf_comparative": 34379336966.58
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 11
+    },
+    "2025-06-30": {
+     "value": 17404044631.93,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 17404044631.93,
+      "sina": 17404044631.93
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 7562128714.18,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 7562128714.18
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 23710372721.65,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 23710372721.65,
+      "sina": 23710372721.65
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 8995888453.53,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 8995888453.53,
+      "sina": 8995888453.53
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 9188339942.92,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 9188339942.92,
+      "sina": 9188339942.92
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "ocf": {
+   "name": "经营活动现金流量净额",
+   "statement": "cf",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 254751254805.69,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 254751254805.69,
+      "sina": 254751254805.68997,
+      "pdf": 254751254805.69
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 12
+    },
+    "2026-06-30": {
+     "value": 131155666051.14,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 131155666051.14,
+      "sina": 131155666051.14
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 42565992940.3,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 42565992940.3,
+      "sina": 42565992940.3
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 36519813259.82,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 36519813259.82,
+      "sina": 36519813259.82
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 12967577641.48,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 12967577641.48,
+      "sina": 12967577641.48,
+      "pdf_comparative": 12967577641.48
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 12
+    },
+    "2025-06-30": {
+     "value": 4250519000.63,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 4250519000.63,
+      "sina": 4250519000.63
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 199511582.61,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 199511582.61
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 6897458532.98,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 6897458532.98,
+      "sina": 6897458532.98
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -7271620729.31,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -7271620729.31,
+      "sina": -7271620729.31
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -1957166487.63,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -1957166487.63,
+      "sina": -1957166487.63
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "capex": {
+   "name": "购建长期资产支付的现金",
+   "statement": "cf",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 36998366035.08,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 36998366035.08,
+      "sina": 36998366035.08,
+      "pdf": 36998366035.08
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 12
+    },
+    "2026-06-30": {
+     "value": 21594402172.5,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 21594402172.5,
+      "sina": 21594402172.5
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 9393670404.33,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 9393670404.33,
+      "sina": 9393670404.33
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 49739203349.94,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 49739203349.94,
+      "sina": 49739203349.94
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 36190810816.27,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 36190810816.27,
+      "sina": 36190810816.27,
+      "pdf_comparative": 36190810816.27
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 12
+    },
+    "2025-06-30": {
+     "value": 24114772125.68,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 24114772125.68,
+      "sina": 24114772125.68
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 14840723867.13,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 14840723867.13
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 71229681134.8,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 71229681134.8,
+      "sina": 71229681134.8
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 43658339783.92,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 43658339783.92,
+      "sina": 43658339783.92
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 35430730427.64,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 35430730427.64,
+      "sina": 35430730427.64
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "icf": {
+   "name": "投资活动现金流量净额",
+   "statement": "cf",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": -92324424192.87,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": -92324424192.87,
+      "sina": -92324424192.87,
+      "pdf": -92324424192.87
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 12
+    },
+    "2026-06-30": {
+     "value": -35577020339.54,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -35577020339.54,
+      "sina": -35577020339.54
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": -15782699108.4,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -15782699108.4,
+      "sina": -15782699108.4
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": -86822743954.97,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -86822743954.97,
+      "sina": -86822743954.97
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": -57252711613.81,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": -57252711613.81,
+      "sina": -57252711613.81,
+      "pdf_comparative": -57252711613.81
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 12
+    },
+    "2025-06-30": {
+     "value": -30522249684.31,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -30522249684.31,
+      "sina": -30522249684.31
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": -20297090176.42,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": -20297090176.42
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": -72415246935.44,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -72415246935.44,
+      "sina": -72415246935.44
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": -44001527872.6,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -44001527872.6,
+      "sina": -44001527872.6
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": -26949227642.44,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": -26949227642.44,
+      "sina": -26949227642.44
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "fcf_fin": {
+   "name": "筹资活动现金流量净额",
+   "statement": "cf",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 65442066247.7,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 65442066247.7,
+      "sina": 65442066247.7,
+      "pdf": 65442066247.7
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 13
+    },
+    "2026-06-30": {
+     "value": 1001927545.05,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1001927545.05,
+      "sina": 1001927545.05
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 8263312633.61,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 8263312633.61,
+      "sina": 8263312633.61
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 46120676228.57,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 46120676228.57,
+      "sina": 46120676228.57
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 29635971079.84,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 29635971079.84,
+      "sina": 29635971079.84,
+      "pdf_comparative": 29635971079.84
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 13
+    },
+    "2025-06-30": {
+     "value": 20801629318.95,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 20801629318.95,
+      "sina": 20801629318.95
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 10367317120.41,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 10367317120.41
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 77214182054.82,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 77214182054.82,
+      "sina": 77214182054.82
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 50806849914.48,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 50806849914.48,
+      "sina": 50806849914.48
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 38970998554.69,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 38970998554.69,
+      "sina": 38970998554.69
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "div_int_paid": {
+   "name": "分配股利、利润或偿付利息支付的现金",
+   "statement": "cf",
+   "flow": true,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 2138805429.47,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 2138805429.47,
+      "sina": 2138805429.47,
+      "pdf": 2138805429.47
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 12
+    },
+    "2026-06-30": {
+     "value": 1461840446.44,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1461840446.44,
+      "sina": 1461840446.44
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 802987135.73,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 802987135.73,
+      "sina": 802987135.73
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 3076928796.85,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 3076928796.85,
+      "sina": 3076928796.85
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 2324830938.24,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 2324830938.24,
+      "sina": 2324830938.24,
+      "pdf_comparative": 2324830938.24
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 12
+    },
+    "2025-06-30": {
+     "value": 1510806938.22,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1510806938.22,
+      "sina": 1510806938.22
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 781834030.22,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 781834030.22
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 3203515309.48,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 3203515309.48,
+      "sina": 3203515309.48
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 2706270252.8,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 2706270252.8,
+      "sina": 2706270252.8
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 1265077175.74,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 1265077175.74,
+      "sina": 1265077175.74
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  },
+  "cce_end": {
+   "name": "期末现金及现金等价物余额",
+   "statement": "cf",
+   "flow": false,
+   "unit": "元",
+   "values": {
+    "2026-09-30": {
+     "value": 264302047599.56,
+     "status": "一致",
+     "chosen_from": "pdf",
+     "sources": {
+      "eastmoney": 264302047599.56,
+      "sina": 264302047599.56,
+      "pdf": 264302047599.56
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 13
+    },
+    "2026-06-30": {
+     "value": 133534187174.44,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 133534187174.44,
+      "sina": 133534187174.44
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2026-03-31": {
+     "value": 72219969531.87,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 72219969531.87,
+      "sina": 72219969531.87
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-12-31": {
+     "value": 37797810836.23,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 37797810836.23,
+      "sina": 37797810836.23
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-09-30": {
+     "value": 27728071304.06,
+     "status": "一致",
+     "chosen_from": "pdf_comparative",
+     "sources": {
+      "eastmoney": 27728071304.06,
+      "sina": 27728071304.06,
+      "pdf_comparative": 27728071304.06
+     },
+     "usable": true,
+     "max_rel_diff": 0.0,
+     "pdf_page": 13
+    },
+    "2025-06-30": {
+     "value": 37270728809.85,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 37270728809.85,
+      "sina": 37270728809.85
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2025-03-31": {
+     "value": 32961853848.69,
+     "status": "单一来源",
+     "chosen_from": "sina",
+     "sources": {
+      "sina": 32961853848.69
+     },
+     "usable": true
+    },
+    "2024-12-31": {
+     "value": 42508218629.66,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 42508218629.66,
+      "sina": 42508218629.66
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2023-12-31": {
+     "value": 31112611629.99,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 31112611629.99,
+      "sina": 31112611629.99
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    },
+    "2022-12-31": {
+     "value": 31781364395.25,
+     "status": "一致",
+     "chosen_from": "eastmoney",
+     "sources": {
+      "eastmoney": 31781364395.25,
+      "sina": 31781364395.25
+     },
+     "usable": true,
+     "max_rel_diff": 0.0
+    }
+   }
+  }
+ },
+ "derived": {
+  "single_quarter": {
+   "rev_total": {
+    "2025-03-31": 6201690535.94,
+    "2025-06-30": 9236234075.57,
+    "2025-09-30": 16645743491.730001,
+    "2025-12-31": 29715653443.569996,
+    "2026-03-31": 50800145545.85,
+    "2026-06-30": 99509931212.15,
+    "2026-09-30": 118714029752.18
+   },
+   "rev": {
+    "2025-03-31": 6201690535.94,
+    "2025-06-30": 9236234075.57,
+    "2025-09-30": 16645743491.730001,
+    "2025-12-31": 29715653443.569996,
+    "2026-03-31": 50800145545.85,
+    "2026-06-30": 99509931212.15,
+    "2026-09-30": 118714029752.18
+   },
+   "cost": {
+    "2025-03-31": 5386882851.7,
+    "2025-06-30": 8043994985.160001,
+    "2025-09-30": 10820061726.939999,
+    "2025-12-31": 12214466765.320004,
+    "2026-03-31": 10587996319.55,
+    "2026-06-30": 12346484337.25,
+    "2026-09-30": 12435014818.390003
+   },
+   "tax_surcharge": {
+    "2025-03-31": 57557679.45,
+    "2025-06-30": 69926349.25,
+    "2025-09-30": 88190914.17999999,
+    "2025-12-31": 134914044.29000002,
+    "2026-03-31": 321576466.57,
+    "2026-06-30": 966419898.05,
+    "2026-09-30": 1366831592.38
+   },
+   "sell_exp": {
+    "2025-03-31": 64315663.18,
+    "2025-06-30": 71311771.0,
+    "2025-09-30": 103097063.95999998,
+    "2025-12-31": 98402726.21000004,
+    "2026-03-31": 78304052.09,
+    "2026-06-30": 144819997.07,
+    "2026-09-30": 157813834.21
+   },
+   "admin_exp": {
+    "2025-03-31": 498586176.25,
+    "2025-06-30": 487732316.48,
+    "2025-09-30": 4928716051.549999,
+    "2025-12-31": 715887714.9499998,
+    "2026-03-31": 482875976.36,
+    "2026-06-30": 879840156.7800001,
+    "2026-09-30": 811640792.9199998
+   },
+   "rd_exp": {
+    "2025-03-31": 1735647788.11,
+    "2025-06-30": 1925080228.64,
+    "2025-09-30": 2737716652.0600004,
+    "2025-12-31": 3194809948.3199987,
+    "2026-03-31": 2153993428.53,
+    "2026-06-30": 3383442392.07,
+    "2026-09-30": 3193315540.1399994
+   },
+   "fin_exp": {
+    "2025-03-31": 403275931.49,
+    "2025-06-30": 548701491.33,
+    "2025-09-30": 846734397.38,
+    "2025-12-31": 1155040436.8,
+    "2026-03-31": 1191885794.16,
+    "2026-06-30": 1237979185.5599997,
+    "2026-09-30": 1206425539.0100002
+   },
+   "int_exp": {
+    "2025-03-31": 718529925.09,
+    "2025-06-30": 738902118.0500001,
+    "2025-09-30": 744566081.5799997,
+    "2025-12-31": 787199043.5,
+    "2026-03-31": 769818795.16,
+    "2026-06-30": 647402695.42,
+    "2026-09-30": 678328217.1400001
+   },
+   "int_inc": {
+    "2025-03-31": 183624750.97,
+    "2025-06-30": 137109703.36999997,
+    "2025-09-30": 125261494.19,
+    "2025-12-31": 125116057.47000003,
+    "2026-03-31": 197568696.45,
+    "2026-06-30": 264799429.47000003,
+    "2026-09-30": 462307033.15000004
+   },
+   "other_inc": {
+    "2025-03-31": 195342392.88,
+    "2025-06-30": 716652928.27,
+    "2025-09-30": 551771587.9699999,
+    "2025-12-31": 1226892846.0100002,
+    "2026-03-31": 1093857020.56,
+    "2026-06-30": 1086052695.77,
+    "2026-09-30": 1402536598.19
+   },
+   "invest_inc": {
+    "2025-03-31": -29002568.49,
+    "2025-06-30": -21797403.01,
+    "2025-09-30": -74249725.62,
+    "2025-12-31": 56926995.22,
+    "2026-03-31": 898361645.18,
+    "2026-06-30": 697998299.9500002,
+    "2026-09-30": 418370663.65999985
+   },
+   "fv_chg": {
+    "2025-03-31": -192578457.36,
+    "2025-06-30": -117184060.56,
+    "2025-09-30": 358264790.20000005,
+    "2025-12-31": 323029125.91999996,
+    "2026-03-31": -2633811537.87,
+    "2026-06-30": -314946384.24000025,
+    "2026-09-30": -1749953726.9100003
+   },
+   "credit_impair": {
+    "2025-03-31": 4735414.41,
+    "2025-06-30": -1619843.2200000002,
+    "2025-09-30": -3206300.27,
+    "2025-12-31": 977000.2699999999,
+    "2026-03-31": -7195041.57,
+    "2026-06-30": -16239755.25,
+    "2026-09-30": -14581660.39
+   },
+   "asset_impair": {
+    "2025-03-31": -864967127.06,
+    "2025-06-30": 69334810.57999992,
+    "2025-09-30": 158148230.72000003,
+    "2025-12-31": -117176001.58000004,
+    "2026-03-31": 61259089.92,
+    "2026-06-30": -337426801.90000004,
+    "2026-09-30": -606636351.56
+   },
+   "op_profit": {
+    "2025-03-31": -2830614153.61,
+    "2025-06-30": -1263087335.8199997,
+    "2025-09-30": -1874933128.85,
+    "2025-12-31": 13689343922.73,
+    "2026-03-31": 35432982407.78,
+    "2026-06-30": 81711411227.26,
+    "2026-09-30": 99039467880.01
+   },
+   "total_profit": {
+    "2025-03-31": -2824665016.51,
+    "2025-06-30": -1261874241.3799996,
+    "2025-09-30": -1892804983.5300002,
+    "2025-12-31": 13680462022.64,
+    "2026-03-31": 35434285339.56,
+    "2026-06-30": 81711156002.61,
+    "2026-09-30": 99041551750.11
+   },
+   "income_tax": {
+    "2025-03-31": 578676.2,
+    "2025-06-30": 400641.89,
+    "2025-09-30": -61600.09999999998,
+    "2025-12-31": 555962915.24,
+    "2026-03-31": 2422760242.71,
+    "2026-06-30": 7173089995.81,
+    "2026-09-30": 10058854016.079998
+   },
+   "np": {
+    "2025-03-31": -2825243692.71,
+    "2025-06-30": -1262274883.27,
+    "2025-09-30": -1892743383.4299998,
+    "2025-12-31": 13124499107.4,
+    "2026-03-31": 33011525096.85,
+    "2026-06-30": 74538066006.79999,
+    "2026-09-30": 88982697734.03
+   },
+   "np_parent": {
+    "2025-03-31": -1559027880.1,
+    "2025-06-30": -773030305.5500002,
+    "2025-09-30": -2947916735.82,
+    "2025-12-31": 7154834300.4800005,
+    "2026-03-31": 24762031466.04,
+    "2026-06-30": 52843196053.96,
+    "2026-09-30": 54434826547.229996
+   },
+   "minority_pl": {
+    "2025-03-31": -1266215812.61,
+    "2025-06-30": -489244577.72,
+    "2025-09-30": 1055173352.3899999,
+    "2025-12-31": 5969664806.92,
+    "2026-03-31": 8249493630.81,
+    "2026-06-30": 21694869952.84,
+    "2026-09-30": 34547871186.799995
+   },
+   "np_ded": {
+    "2025-09-30": 1324453110.69,
+    "2025-12-31": 6377971468.87,
+    "2026-03-31": 26340784067.59,
+    "2026-06-30": 52452241299.62001,
+    "2026-09-30": 55237118776.15999
+   },
+   "sales_cash": {
+    "2025-03-31": 7562128714.18,
+    "2025-06-30": 9841915917.75,
+    "2025-09-30": 16975292334.650002,
+    "2025-12-31": 31226724738.86,
+    "2026-03-31": 54541245127.03,
+    "2026-06-30": 97536214825.79001,
+    "2026-09-30": 125308921387.90997
+   },
+   "ocf": {
+    "2025-03-31": 199511582.61,
+    "2025-06-30": 4051007418.02,
+    "2025-09-30": 8717058640.849998,
+    "2025-12-31": 23552235618.34,
+    "2026-03-31": 42565992940.3,
+    "2026-06-30": 88589673110.84,
+    "2026-09-30": 123595588754.55
+   },
+   "capex": {
+    "2025-03-31": 14840723867.13,
+    "2025-06-30": 9274048258.550001,
+    "2025-09-30": 12076038690.589996,
+    "2025-12-31": 13548392533.670006,
+    "2026-03-31": 9393670404.33,
+    "2026-06-30": 12200731768.17,
+    "2026-09-30": 15403963862.580002
+   },
+   "icf": {
+    "2025-03-31": -20297090176.42,
+    "2025-06-30": -10225159507.890003,
+    "2025-09-30": -26730461929.499996,
+    "2025-12-31": -29570032341.160004,
+    "2026-03-31": -15782699108.4,
+    "2026-06-30": -19794321231.14,
+    "2026-09-30": -56747403853.329994
+   },
+   "fcf_fin": {
+    "2025-03-31": 10367317120.41,
+    "2025-06-30": 10434312198.54,
+    "2025-09-30": 8834341760.89,
+    "2025-12-31": 16484705148.73,
+    "2026-03-31": 8263312633.61,
+    "2026-06-30": -7261385088.559999,
+    "2026-09-30": 64440138702.649994
+   },
+   "div_int_paid": {
+    "2025-03-31": 781834030.22,
+    "2025-06-30": 728972908.0,
+    "2025-09-30": 814024000.0199997,
+    "2025-12-31": 752097858.6100001,
+    "2026-03-31": 802987135.73,
+    "2026-06-30": 658853310.71,
+    "2026-09-30": 676964983.03
+   }
+  },
+  "ttm": {
+   "rev_total": {
+    "2022-12-31": 8286544724.63,
+    "2023-12-31": 9087147184.13,
+    "2024-12-31": 24178248674.03,
+    "2025-12-31": 61799321546.81,
+    "2026-03-31": 106397776556.72,
+    "2026-06-30": 196671473693.3,
+    "2026-09-30": 298739759953.75
+   },
+   "rev": {
+    "2022-12-31": 8286544724.63,
+    "2023-12-31": 9087147184.13,
+    "2024-12-31": 24178248674.03,
+    "2025-12-31": 61799321546.81,
+    "2026-03-31": 106397776556.72,
+    "2026-06-30": 196671473693.3,
+    "2026-09-30": 298739759953.75
+   },
+   "cost": {
+    "2022-12-31": 8545628607.23,
+    "2023-12-31": 9262565994.86,
+    "2024-12-31": 22829536568.89,
+    "2025-12-31": 36465406329.12,
+    "2026-03-31": 41666519796.97,
+    "2026-06-30": 45969009149.06,
+    "2026-09-30": 47583962240.509995
+   },
+   "tax_surcharge": {
+    "2022-12-31": 97040627.31,
+    "2023-12-31": 106594760.86,
+    "2024-12-31": 182762378.24,
+    "2025-12-31": 350588987.17,
+    "2026-03-31": 614607774.29,
+    "2026-06-30": 1511101323.09,
+    "2026-09-30": 2789742001.29
+   },
+   "sell_exp": {
+    "2022-12-31": 105738649.9,
+    "2023-12-31": 171096520.18,
+    "2024-12-31": 223974021.91,
+    "2025-12-31": 337127224.35,
+    "2026-03-31": 351115613.26000005,
+    "2026-06-30": 424623839.33,
+    "2026-09-30": 479340609.58000004
+   },
+   "admin_exp": {
+    "2022-12-31": 871627994.88,
+    "2023-12-31": 2274677309.15,
+    "2024-12-31": 2358314546.15,
+    "2025-12-31": 6630922259.23,
+    "2026-03-31": 6615212059.339999,
+    "2026-06-30": 7007319899.639999,
+    "2026-09-30": 2890244641.0099993
+   },
+   "rd_exp": {
+    "2022-12-31": 2486388251.61,
+    "2023-12-31": 4520470733.55,
+    "2024-12-31": 4607283459.75,
+    "2025-12-31": 9593254617.13,
+    "2026-03-31": 10011600257.55,
+    "2026-06-30": 11469962420.98,
+    "2026-09-30": 11925561309.059998
+   },
+   "fin_exp": {
+    "2022-12-31": 1795671040.22,
+    "2023-12-31": 1934447982.46,
+    "2024-12-31": 2204283035.62,
+    "2025-12-31": 2953752257.0,
+    "2026-03-31": 3742362119.67,
+    "2026-06-30": 4431639813.9,
+    "2026-09-30": 4791330955.53
+   },
+   "int_exp": {
+    "2022-12-31": 1187066805.67,
+    "2023-12-31": 2340681058.31,
+    "2024-12-31": 2669163046.07,
+    "2025-12-31": 2989197168.22,
+    "2026-03-31": 3040486038.2899995,
+    "2026-06-30": 2948986615.659999,
+    "2026-09-30": 2882748751.22
+   },
+   "int_inc": {
+    "2022-12-31": 531934875.29,
+    "2023-12-31": 663283633.19,
+    "2024-12-31": 806691032.08,
+    "2025-12-31": 571112006.0,
+    "2026-03-31": 585055951.48,
+    "2026-06-30": 712745677.5800002,
+    "2026-09-30": 1049791216.5400002
+   },
+   "other_inc": {
+    "2022-12-31": 409658378.99,
+    "2023-12-31": 1642025997.38,
+    "2024-12-31": 1800301838.28,
+    "2025-12-31": 2690659755.13,
+    "2026-03-31": 3589174382.81,
+    "2026-06-30": 3958574150.31,
+    "2026-09-30": 4809339160.53
+   },
+   "invest_inc": {
+    "2022-12-31": -307333346.47,
+    "2023-12-31": -17882097.25,
+    "2024-12-31": 104943374.82,
+    "2025-12-31": -68122701.9,
+    "2026-03-31": 859241511.77,
+    "2026-06-30": 1579037214.73,
+    "2026-09-30": 2071657604.0099998
+   },
+   "fv_chg": {
+    "2022-12-31": 671119189.55,
+    "2023-12-31": -343729.81,
+    "2024-12-31": -177617694.63,
+    "2025-12-31": 371531398.2,
+    "2026-03-31": -2069701682.31,
+    "2026-06-30": -2267464005.9900002,
+    "2026-09-30": -4375682523.1
+   },
+   "credit_impair": {
+    "2022-12-31": 3543232.5,
+    "2023-12-31": -2841558.29,
+    "2024-12-31": -8673598.99,
+    "2025-12-31": 886271.19,
+    "2026-03-31": -11044184.790000001,
+    "2026-06-30": -25664096.82,
+    "2026-09-30": -37039456.940000005
+   },
+   "asset_impair": {
+    "2022-12-31": -4371175058.77,
+    "2023-12-31": -11779279013.44,
+    "2024-12-31": -2464124303.95,
+    "2025-12-31": -754660087.34,
+    "2026-03-31": 171566129.63999987,
+    "2026-06-30": -235195482.84000003,
+    "2026-09-30": -999980065.1200001
+   },
+   "op_profit": {
+    "2022-12-31": -9209738050.72,
+    "2023-12-31": -19341000268.85,
+    "2024-12-31": -8968756605.63,
+    "2025-12-31": 7720709304.45,
+    "2026-03-31": 45984305865.84,
+    "2026-06-30": 128958804428.91998,
+    "2026-09-30": 229873205437.78
+   },
+   "total_profit": {
+    "2022-12-31": -9169885267.02,
+    "2023-12-31": -19223099295.72,
+    "2024-12-31": -9048657128.32,
+    "2025-12-31": 7701117781.22,
+    "2026-03-31": 45960068137.29,
+    "2026-06-30": 128933098381.28,
+    "2026-09-30": 229867455114.92
+   },
+   "income_tax": {
+    "2022-12-31": 1200566.57,
+    "2023-12-31": 1787036.03,
+    "2024-12-31": 2343308.87,
+    "2025-12-31": 556880633.23,
+    "2026-03-31": 2979062199.7400002,
+    "2026-06-30": 10151751553.66,
+    "2026-09-30": 20210667169.839996
+   },
+   "np": {
+    "2022-12-31": -9171085833.59,
+    "2023-12-31": -19224886331.75,
+    "2024-12-31": -9051000437.19,
+    "2025-12-31": 7144237147.99,
+    "2026-03-31": 42981005937.549995,
+    "2026-06-30": 118781346827.62,
+    "2026-09-30": 209656787945.08
+   },
+   "np_parent": {
+    "2022-12-31": -8328003920.35,
+    "2023-12-31": -16339777193.36,
+    "2024-12-31": -7144887248.88,
+    "2025-12-31": 1874859379.01,
+    "2026-03-31": 28195918725.149998,
+    "2026-06-30": 81812145084.65999,
+    "2026-09-30": 139194888367.71
+   },
+   "minority_pl": {
+    "2022-12-31": -843081913.24,
+    "2023-12-31": -2885109138.39,
+    "2024-12-31": -1906113188.31,
+    "2025-12-31": 5269377768.98,
+    "2026-03-31": 14785087212.400002,
+    "2026-06-30": 36969201742.96001,
+    "2026-09-30": 70461899577.37
+   },
+   "np_ded": {
+    "2022-12-31": -8625860031.66,
+    "2023-12-31": -16752003819.4,
+    "2024-12-31": -7870032340.22,
+    "2025-12-31": 5315886168.87,
+    "2026-06-30": 86495449946.77,
+    "2026-09-30": 140408115612.24
+   },
+   "sales_cash": {
+    "2022-12-31": 9188339942.92,
+    "2023-12-31": 8995888453.53,
+    "2024-12-31": 23710372721.65,
+    "2025-12-31": 65606061705.44,
+    "2026-03-31": 112585178118.29001,
+    "2026-06-30": 200279477026.33002,
+    "2026-09-30": 308613106079.58997
+   },
+   "ocf": {
+    "2022-12-31": -1957166487.63,
+    "2023-12-31": -7271620729.31,
+    "2024-12-31": 6897458532.98,
+    "2025-12-31": 36519813259.82,
+    "2026-03-31": 78886294617.51,
+    "2026-06-30": 163424960310.33,
+    "2026-09-30": 278303490424.03
+   },
+   "capex": {
+    "2022-12-31": 35430730427.64,
+    "2023-12-31": 43658339783.92,
+    "2024-12-31": 71229681134.8,
+    "2025-12-31": 49739203349.94,
+    "2026-03-31": 44292149887.14001,
+    "2026-06-30": 47218833396.76,
+    "2026-09-30": 50546758568.75001
+   },
+   "icf": {
+    "2022-12-31": -26949227642.44,
+    "2023-12-31": -44001527872.6,
+    "2024-12-31": -72415246935.44,
+    "2025-12-31": -86822743954.97,
+    "2026-03-31": -82308352886.95,
+    "2026-06-30": -91877514610.20001,
+    "2026-09-30": -121894456534.03
+   },
+   "fcf_fin": {
+    "2022-12-31": 38970998554.69,
+    "2023-12-31": 50806849914.48,
+    "2024-12-31": 77214182054.82,
+    "2025-12-31": 46120676228.57,
+    "2026-03-31": 44016671741.770004,
+    "2026-06-30": 26320974454.670002,
+    "2026-09-30": 81926771396.43
+   },
+   "div_int_paid": {
+    "2022-12-31": 1265077175.74,
+    "2023-12-31": 2706270252.8,
+    "2024-12-31": 3203515309.48,
+    "2025-12-31": 3076928796.85,
+    "2026-03-31": 3098081902.3599997,
+    "2026-06-30": 3027962305.0699997,
+    "2026-09-30": 2890903288.08
+   }
+  },
+  "interest_bearing_debt": {
+   "values": {
+    "2022-12-31": 69058281563.28,
+    "2023-12-31": 101241480921.94,
+    "2024-12-31": 129159451802.48,
+    "2025-06-30": 132617312092.40001,
+    "2025-12-31": 146532578330.02002,
+    "2026-03-31": 151551830314.9,
+    "2026-06-30": 140551594384.81998,
+    "2026-09-30": 137939931004.85
+   },
+   "口径": "短期借款+一年内到期的非流动负债+长期借款+应付债券+租赁负债；一年内到期的非流动负债全额计入，未剔除其中的非付息项，属近似口径；其他流动负债中的短期融资券未计入。年报深检时应以附注拆分校正。"
+  },
+  "sq_verified": {
+   "rev": {
+    "2026-09-30": "原文本报告期"
+   },
+   "np_parent": {
+    "2026-09-30": "原文本报告期"
+   }
+  }
+ },
+ "quote": {
+  "snapshots": [
+   {
+    "source": "腾讯行情",
+    "price": 41.8,
+    "time": "20261030161438",
+    "pe_ttm": 20.39,
+    "mcap_yi": 28375.55,
+    "float_mcap_yi": 1882.27,
+    "pb": 11.05
+   },
+   {
+    "source": "东方财富行情",
+    "price": 41.8,
+    "time": "20261031",
+    "pe_ttm": 16.12,
+    "mcap_yi": 28375.553414185997,
+    "pb": 11.05,
+    "total_shares": 67884099077.0
+   }
+  ],
+  "errors": [],
+  "取数时间": "2026-10-31T18:45:31"
+ },
+ "issues": [
+  {
+   "level": "warn",
+   "field": null,
+   "period": "2025-12-31",
+   "msg": "巨潮未找到 2025-12-31 FY 报告正文（可能尚未披露）"
+  }
+ ],
+ "reconciliations": [
+  {
+   "name": "income_statement_comparative",
+   "label": "同比基数来自本期原文比较列",
+   "period": "2025-09-30",
+   "status": "pass",
+   "note": "营业收入上年同期：一致；来源 eastmoney、sina、pdf_comparative"
+  },
+  {
+   "name": "balance_sheet_opening",
+   "label": "期初数来自本期原文期初列",
+   "period": "2025-12-31",
+   "status": "pass",
+   "note": "资产总计期初：一致；来源 eastmoney、sina、pdf_comparative"
+  },
+  {
+   "name": "cash_closing_balance",
+   "label": "期末现金 vs 货币资金",
+   "period": "2026-09-30",
+   "status": "pass",
+   "left": 264302047599.56,
+   "right": 285164795853.74,
+   "note": "货币资金 2851.65 亿 − 期末现金及等价物 2643.02 亿 = 208.63 亿（受限资金等，占 7.3%）"
+  },
+  {
+   "name": "retained_earnings_roll",
+   "label": "未分配利润滚动",
+   "period": "2026-09-30",
+   "status": "pass",
+   "note": "期末−期初−归母净利润 = 0.00 亿（应约等于 −分红 −提取盈余公积）"
+  }
+ ]
+}
