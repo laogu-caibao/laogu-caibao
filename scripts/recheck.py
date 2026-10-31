@@ -59,6 +59,25 @@ def find_issue_draft(d):
     return hits[-1] if hits else ""
 
 
+def proc_dir(d):
+    """过程件落盘目录：v0.7 起期目录下若有 过程/ 就写进去，否则留在数据目录。"""
+    fp = find_issue_draft(d)
+    if fp:
+        sub = os.path.join(os.path.dirname(fp), "过程")
+        if os.path.isdir(sub):
+            return sub
+    return d
+
+
+def pick(d, name):
+    """问卷/封卷记录的读取路径：过程目录优先，旧位置兜底。"""
+    for base in (proc_dir(d), d):
+        fp = os.path.join(base, name)
+        if os.path.isfile(fp):
+            return fp
+    return os.path.join(proc_dir(d), name)
+
+
 def load_inputs(d):
     ledger = json.load(open(os.path.join(d, "底稿.json"), encoding="utf-8"))
     ana_fp = os.path.join(d, "分析.json")
@@ -80,7 +99,7 @@ def do_build(d, reset):
     questions = rc.build(ledger, ana, draft, traces)
     meta = dict(ledger.get("meta") or {})
     meta.setdefault("target_period", os.path.basename(d).replace("-deep", ""))
-    out = os.path.join(d, "稿件_数据反问.md")
+    out = os.path.join(proc_dir(d), "稿件_数据反问.md")
     if os.path.isfile(out) and not reset:
         print(f"[recheck] 问卷已存在，沿用 {out}（--reset 重建）")
     else:
@@ -92,7 +111,7 @@ def do_build(d, reset):
 
 
 def do_seal(d):
-    fp = os.path.join(d, "稿件_数据反问.md")
+    fp = pick(d, "稿件_数据反问.md")
     if not os.path.isfile(fp):
         sys.exit(f"[ERR] {fp} 不存在——先建卷")
     text = open(fp, encoding="utf-8").read()
@@ -110,7 +129,7 @@ def do_seal(d):
               "model": rec["model"], "answered_at": rec["answered_at"],
               "sealed_at": datetime.datetime.now().strftime("%Y-%m-%d %H:%M"),
               "overall": ov, "questions": rec["questions"]}
-    out = os.path.join(d, "数据反问.json")
+    out = os.path.join(proc_dir(d), "数据反问.json")
     with open(out, "w", encoding="utf-8") as f:
         json.dump(record, f, ensure_ascii=False, indent=2)
     for a in rec["questions"]:
