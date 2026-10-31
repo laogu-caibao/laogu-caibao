@@ -1,7 +1,7 @@
 ---
 name: lhg-cbfx
 description: A 股公司财报拆解。公司发布季报/年报后，用免费公开数据（巨潮原文 + 东方财富 + 新浪）采集并逐字段核对财务底稿，再按企业分型（成熟/周期/成长/技术未定型/金融）做经营实况、风险与估值位置分析。触发词：财报拆解、季报分析、年报分析、财报快检、年报深检、看看 XX 的三季报、稿件去AI味。
-version: 0.7.1
+version: 0.7.2
 ---
 
 # 老顾财报拆解（lhg-cbfx）
@@ -138,6 +138,7 @@ out/<发布日 YYYY-MM-DD>-<公司中文名>-<报告期>-<代码>/
 - 数据层底稿仍走 `out/<代码>/<报告期>/`（collect.py 产出，不动）；**成稿物料的期目录与数据目录并存**，别混成一个。
 - 中间产物（检测报告、改写前备份）进 `过程/`，不要摊在期目录根下。`polish.py` 检测到期目录里有 `过程/` 会自动写进去。
 - **`recheck.py` / `polish.py` 可直接传股票代码**：数据目录没有成稿时，两个脚本会按 `-<代码>` 后缀到 `out/` 下找期目录里的 `稿件_成稿.md`，不需要手动软链。
+- **产物入库、发包剥离**：`out/` 全部进 git（作为示例与回归素材），但**打包成 skill 分发包时必须剥掉**。统一用 `python3 scripts/pack.py`，默认出 `dist/<name>-v<version>.zip`，只收 `SKILL.md / scripts / references / libs / examples / tests / 台账.md`；剥掉 `out/ .git .workbuddy .zcode dist __pycache__` 与隐藏文件。包内自检：SKILL.md 在根、不得出现 `out/`。**不要用 `zip -r` 手打包**，`.git` 和中文字体缓存会被一起带进去。
 
 #### 5.2 稿件格式（四段，顺序不可换）
 
@@ -245,6 +246,7 @@ scripts/
   recheck.py         数据反问 CLI（8 题出卷+机器预填 → 默认模型作答 → 封卷裁定）
   polish.py          去AI味终检 CLI（scan 检测 → 改写 → verify 验收）
   cards.py           配图卡出图 CLI（--spec cards.json；五种卡型；1080x1350 PNG 直出）
+  pack.py            打包分发包 CLI（仓库带 out/ 产物，发包时剥离；自检 SKILL.md 在根且无 out/）
   cbfx/              net 缓存限速｜fields 57 个规范科目｜sources 巨潮/东财/新浪/行情/market(月K线·股本·行业)｜pdfparse 原文解析｜ledger 核对组装｜report_md 核对报告
                      rules.py 规则手册机器版（唯一阈值来源）｜analysis.py 分型/指标/红旗/估值｜synthesis.py 门禁/降档/跳变/利润桥/持续性/杜邦/同源风险/跟踪｜analysis_md.py 分析报告｜brief.py 五看选矛盾 + 对比表 + 归因链｜reaction.py 财报与股价背离判定｜aiwei.py 稿件去AI味（词黑名单·句级特征·密度·数字冻结/禁语/证据标注验收）｜recheck.py 数据反问卷（出卷/解析/裁定）
 references/
@@ -275,6 +277,7 @@ examples/            核对报告与快检/深检报告样例
 - 未完成：银行/保险/券商监管指标（不良率、拨备、资本充足率、NIM、偿付能力等，报告中明确标“未接入”）；附注解析（有息负债精确拆分、减值明细、分部/主营构成，因此量价拆分暂为“证据不足”）；扫描版原文（无文字层）的 OCR；同业对比；报告美化与配音文案。
 - 不做：荐股、目标价、买卖建议。
 - v0.7 新增：口播稿成品形态（期目录 / 四段式 / 配图卡出图 CLI / 插位一致 / 引导语规范），见 5.1–5.5。
+- v0.7.2 新增：产物与分发包分离——`out/` 全量入库、`scripts/pack.py` 发包剥离。
 
 ## 自迭代协议（v1.0）
 

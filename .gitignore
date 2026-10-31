@@ -1,7 +1,6 @@
-out/*
-!out/2026-10-31-英特尔-Q3-INTC/
-!out/2026-10-31-东山精密-Q3-002384/
 __pycache__/
 *.pyc
 .zcode/
 .workbuddy/
+.DS_Store
+dist/
