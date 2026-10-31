@@ -1,0 +1,308 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Earnings Interpretation Report",
+  "type": "object",
+  "required": [
+    "mode",
+    "title",
+    "company",
+    "headline",
+    "executive_summary",
+    "key_metrics",
+    "sections",
+    "sources"
+  ],
+  "properties": {
+    "mode": {
+      "enum": ["brief", "standard", "deep", "preview", "update"]
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "company": {
+      "type": "object",
+      "required": [
+        "name",
+        "report_type",
+        "report_period",
+        "publication_date",
+        "currency",
+        "unit",
+        "data_as_of"
+      ],
+      "properties": {
+        "name": { "type": "string", "minLength": 1 },
+        "short_name": { "type": "string", "maxLength": 4 },
+        "ticker": { "type": "string" },
+        "market": { "type": "string" },
+        "sector": { "type": "string" },
+        "industry": { "type": "string" },
+        "subsector": { "type": "string" },
+        "report_date": { "type": "string" },
+        "logo_path": { "type": "string" },
+        "logo_data_uri": {
+          "type": "string",
+          "pattern": "^data:image/(png|jpeg|webp);base64,"
+        },
+        "logo_alt": { "type": "string" },
+        "report_type": { "type": "string", "minLength": 1 },
+        "report_period": { "type": "string", "minLength": 1 },
+        "publication_date": { "type": "string", "minLength": 1 },
+        "currency": { "type": "string", "minLength": 1 },
+        "unit": { "type": "string", "minLength": 1 },
+        "accounting_standard": { "type": "string" },
+        "data_as_of": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "headline": {
+      "type": "string",
+      "minLength": 1
+    },
+    "headline_source_ids": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "market_snapshot": {
+      "type": "object",
+      "required": ["lookup_status"],
+      "properties": {
+        "lookup_status": {
+          "enum": ["available", "unavailable"]
+        },
+        "current_price": { "type": "string" },
+        "market_cap": { "type": "string" },
+        "buy_range": { "type": "string" },
+        "sell_range": { "type": "string" },
+        "as_of": { "type": "string" },
+        "source_note": { "type": "string" },
+        "disclaimer": { "type": "string" }
+      },
+      "additionalProperties": false
+    },
+    "key_metrics_summary": { "type": "string" },
+    "research": {
+      "$ref": "./research-gate-schema.json"
+    },
+    "executive_summary": {
+      "type": "array",
+      "minItems": 1,
+      "maxItems": 3,
+      "items": {
+        "type": "object",
+        "required": ["label", "conclusion"],
+        "properties": {
+          "label": { "type": "string" },
+          "conclusion": { "type": "string" },
+          "tone": {
+            "enum": ["positive", "negative", "warning", "neutral"]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "key_metrics": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["label", "value"],
+        "properties": {
+          "label": { "type": "string" },
+          "value": { "type": "string" },
+          "comparison": { "type": "string" },
+          "change": { "type": "string" },
+          "interpretation": { "type": "string" },
+          "tone": {
+            "enum": ["positive", "negative", "warning", "neutral"]
+          },
+          "source_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "sections": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["title"],
+        "properties": {
+          "title": { "type": "string" },
+          "summary": { "type": "string" },
+          "insight": { "type": "string" },
+          "paragraphs": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "bullets": {
+            "type": "array",
+            "items": { "type": "string" }
+          },
+          "table": {
+            "type": "object",
+            "required": ["columns", "rows"],
+            "properties": {
+              "title": { "type": "string" },
+              "caption": { "type": "string" },
+              "note": { "type": "string" },
+              "source": { "type": "string" },
+              "columns": {
+                "type": "array",
+                "minItems": 1,
+                "items": { "type": "string" }
+              },
+              "rows": {
+                "type": "array",
+                "items": {
+                  "type": "array",
+                  "items": {
+                    "oneOf": [
+                      { "type": "string" },
+                      {
+                        "type": "object",
+                        "required": ["value"],
+                        "properties": {
+                          "value": { "type": "string" },
+                          "tone": {
+                            "enum": ["positive", "negative", "warning", "neutral"]
+                          },
+                          "source_ids": {
+                            "type": "array",
+                            "items": { "type": "string" }
+                          }
+                        },
+                        "additionalProperties": false
+                      }
+                    ]
+                  }
+                }
+              }
+            },
+            "additionalProperties": false
+          },
+          "chart": {
+            "type": "object",
+            "required": ["type", "title", "labels", "series"],
+            "properties": {
+              "type": { "enum": ["bar", "line"] },
+              "title": { "type": "string" },
+              "unit": { "type": "string" },
+              "labels": {
+                "type": "array",
+                "items": { "type": "string" }
+              },
+              "series": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": ["name", "values"],
+                  "properties": {
+                    "name": { "type": "string" },
+                    "values": {
+                      "type": "array",
+                      "items": { "type": ["number", "null"] }
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              },
+              "note": { "type": "string" },
+              "source": { "type": "string" }
+            },
+            "additionalProperties": false
+          },
+          "source_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "risks": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title", "detail"],
+        "properties": {
+          "title": { "type": "string", "minLength": 1 },
+          "detail": { "type": "string", "minLength": 1 },
+          "severity": { "enum": ["high", "medium", "low"] },
+          "direction": { "enum": ["positive", "negative", "mixed"] },
+          "next_metric": { "type": "string" },
+          "source_ids": {
+            "type": "array",
+            "items": { "type": "string" }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "data_gaps": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "title",
+          "publisher",
+          "date",
+          "period",
+          "location",
+          "level"
+        ],
+        "properties": {
+          "id": { "type": "string" },
+          "title": { "type": "string" },
+          "publisher": { "type": "string" },
+          "date": { "type": "string" },
+          "period": { "type": "string" },
+          "location": { "type": "string" },
+          "url": { "type": "string" },
+          "retrieval_methods": {
+            "type": "array",
+            "minItems": 1,
+            "uniqueItems": true,
+            "items": {
+              "enum": ["WebSearch", "WebFetch", "MCP", "官方直链", "分析计算"]
+            }
+          },
+          "level": {
+            "enum": [
+              "监管披露",
+              "公司披露",
+              "结构化数据",
+              "一致预期",
+              "分析计算",
+              "分析推断",
+              "外部背景"
+            ]
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "disclaimer": {
+      "type": "string"
+    }
+  },
+  "additionalProperties": false
+}

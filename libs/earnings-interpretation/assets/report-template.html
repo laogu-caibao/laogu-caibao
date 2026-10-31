@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="{{GENERATOR}}">
+  <link rel="icon" href="data:,">
+  <title>{{DOCUMENT_TITLE}}</title>
+  <style>
+{{INLINE_CSS}}
+  </style>
+</head>
+<body data-mode="{{MODE}}" data-template="earnings-a4-v1">
+  <article class="document-shell">
+    <header class="report-header">
+      <div class="identity-row">
+        {{COMPANY_IDENTITY}}
+        <div class="document-class">
+          <strong>财报解读</strong>
+        </div>
+      </div>
+      <div class="title-block{{MARKET_SNAPSHOT_CLASS}}">
+        <div class="title-copy">
+          <h1>{{REPORT_TITLE}}</h1>
+          <p class="report-deck" aria-label="核心判断">{{HEADLINE}}</p>
+        </div>
+        {{MARKET_SNAPSHOT}}
+      </div>
+      {{REPORT_META}}
+    </header>
+    <main>
+      <div class="front-matter">
+        {{EXECUTIVE_SUMMARY}}
+        {{KEY_METRICS}}
+      </div>
+      <div class="report-columns">
+        {{REPORT_SECTIONS}}
+        {{RISKS}}
+        {{DATA_GAPS}}
+      </div>
+      <div class="report-appendix">
+        {{SOURCES}}
+      </div>
+    </main>
+    <footer class="report-footer">
+      <p>{{DISCLAIMER}}</p>
+      <p class="footer-mark">数据截止：{{DATA_AS_OF}}　·　{{GENERATOR}}</p>
+    </footer>
+  </article>
+</body>
+</html>
