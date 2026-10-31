@@ -1,0 +1,49 @@
+{
+ "items": [
+  {
+   "id": "2026-09-30:expansion",
+   "created_period": "2026-09-30",
+   "due_period": "2026-12-31",
+   "risk": "扩张期投入",
+   "severity": "high",
+   "metric": "fcf",
+   "flag": null,
+   "op": ">=",
+   "value": 0.0,
+   "baseline": 12834133123.0,
+   "text": "在建工程转固、自由现金流转正的节奏",
+   "proposition": "风险“扩张期投入”在 2026-12-31 仍将存在（可证伪条件：在建工程转固、自由现金流转正的节奏）",
+   "status": "open"
+  },
+  {
+   "id": "2026-09-30:asset_quality",
+   "created_period": "2026-09-30",
+   "due_period": "2026-12-31",
+   "risk": "资产质量与减值",
+   "severity": "high",
+   "metric": null,
+   "flag": null,
+   "op": null,
+   "value": null,
+   "baseline": null,
+   "text": "其他应收款、商誉与减值是否继续扩大（需附注）",
+   "proposition": "风险“资产质量与减值”在 2026-12-31 仍将存在（可证伪条件：其他应收款、商誉与减值是否继续扩大（需附注））",
+   "status": "manual"
+  },
+  {
+   "id": "2026-09-30:earnings_quality",
+   "created_period": "2026-09-30",
+   "due_period": "2026-12-31",
+   "risk": "利润含金量（非经常性/非主业）",
+   "severity": "low",
+   "metric": "np_ded_ratio",
+   "flag": null,
+   "op": ">=",
+   "value": 0.8,
+   "baseline": 0.7429919514648576,
+   "text": "扣非占归母回到 80% 以上",
+   "proposition": "风险“利润含金量（非经常性/非主业）”在 2026-12-31 仍将存在（可证伪条件：扣非占归母回到 80% 以上）",
+   "status": "open"
+  }
+ ]
+}
