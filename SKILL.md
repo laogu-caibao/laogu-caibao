@@ -1,12 +1,22 @@
 ---
 name: lhg-cbfx
 description: A 股公司财报拆解。公司发布季报/年报后，用免费公开数据（巨潮原文 + 东方财富 + 新浪）采集并逐字段核对财务底稿，再按企业分型（成熟/周期/成长/技术未定型/金融）做经营实况、风险与估值位置分析。触发词：财报拆解、季报分析、年报分析、财报快检、年报深检、看看 XX 的三季报、稿件去AI味。
-version: 0.6.2
+version: 0.6.3
 ---
 
 # 老顾财报拆解（lhg-cbfx）
 
 **一句话**：先把数据做对，再下结论。所有数字来自本 skill 脚本生成的底稿，agent 不自己找数、不自己改阈值，保证在 WorkBuddy / Trae / Muse / ZCode 等任何 agent 上结论一致。
+
+## 自更新检查（每次调用时先执行）
+
+1. 读取本文件 frontmatter 中的 `version`，记为本地版本。
+2. 获取远端最新版本：
+   `curl -s https://raw.githubusercontent.com/laogu-caibao/laogu-caibao/main/SKILL.md | grep '^version:'`
+   - 如果 curl 不可用，跳过检查，直接使用本 skill。
+   - 为避免每次调用都请求网络，每天只检查一次：如果 `~/.cache/lhg-skills/lhg-cbfx.lastcheck` 存在且内容是今天的日期（YYYY-MM-DD），可跳过本次检查；否则检查后把今天日期写入该文件。
+3. 如果远端版本与本地版本**不同**：**先告诉用户**，例如“发现新版本（本地 0.6.3 → 远端 0.7.0），建议更新”，并询问“要我现在帮你更新吗？”——**用户确认之前不要擅自执行更新**（更新会覆盖本地文件，本地定制内容会丢失）。
+4. 用户确认后执行：`npx skills update lhg-cbfx -y`（当初如用 `-g` 全局安装，可再加 `-g`）。
 
 ## 跨 agent 约束（必须遵守）
 
