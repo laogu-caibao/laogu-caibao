@@ -38,16 +38,32 @@ def resolve(code, period=None):
     d = os.path.join(base, sorted(cands)[-1])
     if not os.path.isfile(os.path.join(d, "底稿.json")):
         sys.exit(f"[ERR] {d}/底稿.json 不存在，先跑 collect.py")
-    if not os.path.isfile(os.path.join(d, "稿件_成稿.md")):
-        sys.exit(f"[ERR] {d}/稿件_成稿.md 不存在——先写成稿，再做数据反问")
+    if not os.path.isfile(find_issue_draft(d)):
+        sys.exit(f"[ERR] 数据目录与期目录都没有稿件_成稿.md——先写成稿，再做数据反问")
     return d
+
+
+def find_issue_draft(d):
+    """成稿定位：数据目录优先；v0.7 起成稿在期目录 out/<发布日>-<公司>-<报告期>-<代码>/ 下。"""
+    fp = os.path.join(d, "稿件_成稿.md")
+    if os.path.isfile(fp):
+        return fp
+    code = os.path.basename(os.path.dirname(d))
+    out = os.path.join(ROOT, "out")
+    hits = []
+    for name in sorted(os.listdir(out)):
+        qd = os.path.join(out, name)
+        f = os.path.join(qd, "稿件_成稿.md")
+        if os.path.isdir(qd) and name.endswith("-" + code) and os.path.isfile(f):
+            hits.append(f)
+    return hits[-1] if hits else ""
 
 
 def load_inputs(d):
     ledger = json.load(open(os.path.join(d, "底稿.json"), encoding="utf-8"))
     ana_fp = os.path.join(d, "分析.json")
     ana = json.load(open(ana_fp, encoding="utf-8")) if os.path.isfile(ana_fp) else {}
-    draft = open(os.path.join(d, "稿件_成稿.md"), encoding="utf-8").read()
+    draft = open(find_issue_draft(d), encoding="utf-8").read()
     traces = []
     for name, label in [("稿件.md", "稿件骨架"), ("快检报告.md", "快检报告"), ("深检报告.md", "深检报告"),
                         ("数据核对报告.md", "数据核对报告"), ("分析.json", "分析.json"), ("底稿.json", "底稿.json")]:

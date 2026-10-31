@@ -42,12 +42,29 @@ def resolve(target, period=None):
     d = os.path.join(base, sorted(cands)[-1])
     src = os.path.join(d, "稿件_成稿.md")
     if not os.path.isfile(src):
-        sys.exit(f"[ERR] {src} 不存在——先在稿件骨架上写成稿，再跑 polish")
+        src = find_issue_draft(target)
+    if not os.path.isfile(src):
+        sys.exit(f"[ERR] {os.path.join(d, '稿件_成稿.md')} 不存在——先在稿件骨架上写成稿，再跑 polish")
     return src
+
+
+def find_issue_draft(code):
+    """v0.7 起成稿在期目录 out/<发布日>-<公司>-<报告期>-<代码>/ 下，按代码后缀兜底定位。"""
+    out = os.path.join(ROOT, "out")
+    hits = []
+    for name in sorted(os.listdir(out)):
+        qd = os.path.join(out, name)
+        f = os.path.join(qd, "稿件_成稿.md")
+        if os.path.isdir(qd) and name.endswith("-" + code) and os.path.isfile(f):
+            hits.append(f)
+    return hits[-1] if hits else ""
 
 
 def side_paths(src):
     d = os.path.dirname(os.path.abspath(src))
+    _sub = os.path.join(d, "过程")          # v0.7：期目录下的过程件统一进 过程/
+    if os.path.isdir(_sub):
+        d = _sub
     stem = os.path.splitext(os.path.basename(src))[0]
     return (os.path.join(d, f"{stem}_改写前.md"), os.path.join(d, f"{stem}_AI味检测.md"))
 
