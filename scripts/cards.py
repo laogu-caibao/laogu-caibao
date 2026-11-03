@@ -128,9 +128,12 @@ def draw_gap(c, card):
     if gap:
         gf = c.f(40, bold=True)
         gw = c.w(gap, gf)
+        # 胶囊底色跟随基调：涨（up，默认）暗红，跌（down）暗绿——A 股涨红跌绿
+        g_tone = card.get("gap_tone", "up")
+        fill_c, line_c = ("#0E2A1E", "#1F6B45") if g_tone == "down" else ("#33141A", "#7A2A34")
         c.d.rounded_rectangle((W // 2 - gw // 2 - 40, 592, W // 2 + gw // 2 + 40, 676),
-                              radius=42, fill="#33141A", outline="#7A2A34", width=2)
-        c.d.text((W // 2, 610), gap, font=gf, fill=c.color(card.get("gap_tone"), "up"), anchor="ma")
+                              radius=42, fill=fill_c, outline=line_c, width=2)
+        c.d.text((W // 2, 610), gap, font=gf, fill=c.color(g_tone, "up"), anchor="ma")
 
     c.panel((72, 708, W - 72, 968))
     c.d.text((112, 752), card["bottom"]["label"], font=c.f(28), fill=c.t["sub"])

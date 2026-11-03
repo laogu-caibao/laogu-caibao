@@ -1,0 +1,951 @@
+{
+ "schema": "cbfx.analysis/0.3",
+ "rules_version": "rules/0.3",
+ "meta": {
+  "code": "300502",
+  "name": "新易盛",
+  "target_period": "2026-09-30",
+  "report_type": "Q3",
+  "mode": "quick",
+  "company_type": "general"
+ },
+ "generated_at": "2026-11-03T19:57:49",
+ "data_quality": {
+  "coverage": {
+   "一致": 50,
+   "单一来源": 2,
+   "未获取": 5
+  },
+  "errors": [],
+  "historical_errors": [],
+  "warnings": [],
+  "filings": [
+   {
+    "title": "2026年三季度报告",
+    "publish_date": "2026-10-30",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-10-30/1225642947.PDF",
+    "audit_opinion": "季报/半年报一般未经审计"
+   },
+   {
+    "title": "2025年年度报告",
+    "publish_date": "2026-04-24",
+    "url": "http://static.cninfo.com.cn/finalpage/2026-04-24/1225172598.PDF",
+    "audit_opinion": "标准无保留意见"
+   }
+  ]
+ },
+ "archetype": {
+  "archetype": "C",
+  "name": "C 成长扩张型",
+  "confidence": "中",
+  "basis": [
+   "Q3：营收 TTM 同比 100.7%",
+   "Q3：在建工程 ÷ 固定资产 = 12.6%"
+  ],
+  "industry": {
+   "em": "信息技术-通信设备-通信传输设备",
+   "csrc": "制造业-计算机、通信和其他电子设备制造业"
+  },
+  "decided_at": "2026-09-30",
+  "mode": "quick",
+  "mixed": "混合体判定需要年报“主营业务构成”分部数据，v0 未自动化；新兴业务占比 10%–70% 时须人工拆分",
+  "rules_version": "rules/0.3",
+  "recheck_triggers": [
+   "单季营收同比 +80%"
+  ]
+ },
+ "changes": [
+  {
+   "key": "rev",
+   "name": "营业收入",
+   "single_q": 10940148779.029999,
+   "single_q_ly": 6067620945.860001,
+   "single_q_pq": 12571844921.460001,
+   "ytd_ly": 16504791211.36,
+   "single_q_yoy": 0.8030376117174184,
+   "single_q_qoq": -0.12978971285628213,
+   "ytd": 31849895741.23,
+   "ytd_yoy": 0.9297363616031806,
+   "streak": {
+    "direction": "增长",
+    "quarters": 11,
+    "confirmed": true
+   }
+  },
+  {
+   "key": "np_parent",
+   "name": "归母净利润",
+   "single_q": 3843162495.339999,
+   "single_q_ly": 2384798239.4700003,
+   "single_q_pq": 4748945079.16,
+   "ytd_ly": 6327092507.84,
+   "single_q_yoy": 0.6115252148936956,
+   "single_q_qoq": -0.19073342999793477,
+   "ytd": 11372330534.73,
+   "ytd_yoy": 0.7974022855898448,
+   "streak": {
+    "direction": "增长",
+    "quarters": 11,
+    "confirmed": true
+   }
+  },
+  {
+   "key": "np_ded",
+   "name": "扣非归母净利润",
+   "single_q": 3629746129.12,
+   "single_q_ly": 2367461846.1299996,
+   "single_q_pq": 4742763553.41,
+   "ytd_ly": 6301361138.7,
+   "single_q_yoy": 0.5331804122011126,
+   "single_q_qoq": -0.23467697930877274,
+   "ytd": 11140484930.66,
+   "ytd_yoy": 0.7679489693489198,
+   "streak": {
+    "direction": "增长",
+    "quarters": 11,
+    "confirmed": true
+   }
+  },
+  {
+   "key": "ocf",
+   "name": "经营现金流净额",
+   "single_q": -151979381.5,
+   "single_q_ly": 3684733834.2699995,
+   "single_q_pq": 932337168.2700001,
+   "ytd_ly": 4637420688.24,
+   "single_q_yoy": -1.041245687839515,
+   "single_q_qoq": -1.1630090343625423,
+   "ytd": 1464429142.65,
+   "ytd_yoy": -0.6842147303211815,
+   "streak": {
+    "direction": "下滑",
+    "quarters": 1,
+    "confirmed": false
+   }
+  },
+  {
+   "key": "gm",
+   "name": "毛利率（单季）",
+   "single_q": 0.4627039462555482,
+   "pp_yoy": -0.6680811247020135,
+   "pp_qoq": -1.6910084260965907
+  }
+ ],
+ "metrics": {
+  "roe": {
+   "name": "ROE（TTM，归母口径）",
+   "value": 0.6862800693009675,
+   "unit": "%",
+   "formula": "归母净利润 TTM ÷ 平均归母权益（期初期末）",
+   "inputs": [
+    {
+     "field": "np_parent",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 14577160757.060001
+    },
+    {
+     "field": "eq_parent",
+     "period": "2026-09-30",
+     "basis": "期末",
+     "value": 27957660419.18
+    },
+    {
+     "field": "eq_parent",
+     "period": "2025-09-30",
+     "basis": "上年同期末",
+     "value": 14524006786.77
+    }
+   ],
+   "verdict": "参考",
+   "threshold": "健康 ≥15%，预警 <8%（FRA/唐）；B 型看跨周期均值、C 型看趋势、D 型弃用",
+   "note": null
+  },
+  "roe_avg": {
+   "name": "ROE 年度均值（4 年）",
+   "value": 0.3646250255382871,
+   "unit": "%",
+   "formula": "各年 归母净利润 ÷ 平均归母权益 的算术平均",
+   "inputs": [
+    {
+     "field": "np_parent",
+     "period": "2022-12-31",
+     "basis": "年度",
+     "value": null
+    },
+    {
+     "field": "np_parent",
+     "period": "2023-12-31",
+     "basis": "年度",
+     "value": null
+    },
+    {
+     "field": "np_parent",
+     "period": "2024-12-31",
+     "basis": "年度",
+     "value": null
+    },
+    {
+     "field": "np_parent",
+     "period": "2025-12-31",
+     "basis": "年度",
+     "value": null
+    }
+   ],
+   "verdict": null,
+   "threshold": "A 型：5 年均值 >15% 且近 3 年无一年 <10%；B 型：跨周期均值 <8% 且 PB 高分位 → 排除线",
+   "note": "2022 18.7%；2023 13.4%；2024 41.1%；2025 72.6%"
+  },
+  "np_ded_ratio": {
+   "name": "扣非 ÷ 归母（TTM）",
+   "value": 0.9841719439837927,
+   "unit": "%",
+   "formula": "扣非归母净利润 TTM ÷ 归母净利润 TTM",
+   "inputs": [
+    {
+     "field": "np_ded",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 14346432640.039997
+    },
+    {
+     "field": "np_parent",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 14577160757.060001
+    }
+   ],
+   "verdict": "健康",
+   "threshold": "≥90% 佳，<80% 预警（张 ≥90% 为佳；FRA <80% 预警）",
+   "note": null,
+   "trend": {
+    "periods": [
+     "2025-12-31",
+     "2026-03-31",
+     "2026-06-30",
+     "2026-09-30"
+    ],
+    "values": [
+     0.997417742171567,
+     0.9969174321312466,
+     0.9973588930862018,
+     0.9841719439837927
+    ],
+    "worsening": false
+   }
+  },
+  "ocf_np": {
+   "name": "净现比（TTM）",
+   "value": 0.30817890222325517,
+   "unit": "倍",
+   "formula": "经营现金流净额 TTM ÷ 净利润 TTM",
+   "inputs": [
+    {
+     "field": "ocf",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 4528243105.41
+    },
+    {
+     "field": "np",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 14693553233.990002
+    }
+   ],
+   "verdict": "预警",
+   "threshold": "健康 ≥1.0，预警 <0.5（张 >1.2；FRA ≥1 健康、<0.5 预警）；B 型看全周期累计，C 型允许 <1 但须解释缺口",
+   "note": null
+  },
+  "cash_rev": {
+   "name": "收现比（TTM）",
+   "value": 0.9322218334316867,
+   "unit": "倍",
+   "formula": "销售商品、提供劳务收到的现金 TTM ÷ 营业收入 TTM",
+   "inputs": [
+    {
+     "field": "sales_cash",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 37463160944.03
+    },
+    {
+     "field": "rev",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 40186959370.09
+    }
+   ],
+   "verdict": "中性",
+   "threshold": "≥1.0 健康，<0.85 预警（含增值税，>1 正常）",
+   "note": null,
+   "trend": {
+    "periods": [
+     "2025-12-31",
+     "2026-03-31",
+     "2026-06-30",
+     "2026-09-30"
+    ],
+    "values": [
+     0.9346216762187788,
+     0.9212512973045582,
+     0.9006991878681718,
+     0.9322218334316867
+    ],
+    "worsening": false
+   }
+  },
+  "core_profit": {
+   "name": "核心利润（TTM）",
+   "value": 17936953589.319992,
+   "unit": "亿",
+   "formula": "营收−营业成本−税金及附加−销售−管理−研发−利息费用",
+   "inputs": [
+    {
+     "field": "rev",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 40186959370.09
+    },
+    {
+     "field": "cost",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 20918493585.940002
+    },
+    {
+     "field": "tax_surcharge",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 137398867.21999997
+    },
+    {
+     "field": "sell_exp",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 146511212.25
+    },
+    {
+     "field": "admin_exp",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 245302957.90000004
+    },
+    {
+     "field": "rd_exp",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 800834530.1000001
+    },
+    {
+     "field": "int_exp",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 1464627.3599999999
+    }
+   ],
+   "verdict": null,
+   "threshold": null,
+   "note": null
+  },
+  "core_profit_b": {
+   "name": "核心利润·口径二（TTM）",
+   "value": 17204108837.149994,
+   "unit": "亿",
+   "formula": "营收−营业成本−税金及附加−销售−管理−研发−财务费用（全额，含利息收入与汇兑）",
+   "inputs": [
+    {
+     "field": "fin_exp",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 734309379.53
+    }
+   ],
+   "verdict": null,
+   "threshold": null,
+   "note": "张新民两种口径并列：口径一只扣利息费用（看经营本身），口径二扣财务费用全额（含利息收入与汇兑）；两者差距大说明资金收益或汇兑影响大"
+  },
+  "core_op": {
+   "name": "核心利润 ÷ 营业利润（TTM）",
+   "value": 1.0319045354364953,
+   "unit": "%",
+   "formula": "核心利润 ÷ 营业利润",
+   "inputs": [
+    {
+     "field": "op_profit",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 17382376928.629997
+    }
+   ],
+   "verdict": "健康",
+   "threshold": "≥90% 优秀，<70% 需警惕“在玩不在干”（张）",
+   "note": null,
+   "trend": {
+    "periods": [
+     "2025-12-31",
+     "2026-03-31",
+     "2026-06-30",
+     "2026-09-30"
+    ],
+    "values": [
+     0.986002486969128,
+     1.0372566898287277,
+     1.0405337975327378,
+     1.0319045354364953
+    ],
+    "worsening": false
+   }
+  },
+  "core_cash": {
+   "name": "核心利润获现率（TTM）",
+   "value": 0.25192663877449145,
+   "unit": "倍",
+   "formula": "经营现金流净额 ÷（核心利润 + 其他收益）",
+   "inputs": [
+    {
+     "field": "ocf",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 4528243105.41
+    },
+    {
+     "field": "other_inc",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 37497732.85
+    }
+   ],
+   "verdict": "预警",
+   "threshold": "1.2–1.5 理想，<1.0 预警（张 1.2–1.5）",
+   "note": null
+  },
+  "ibd_ta": {
+   "name": "有息负债率（近似）",
+   "value": null,
+   "unit": "%",
+   "formula": "（短借+一年内到期非流动负债+长借+应付债券+租赁负债）÷ 总资产",
+   "inputs": [
+    {
+     "field": "interest_bearing_debt",
+     "period": "2026-09-30",
+     "basis": "期末",
+     "value": null
+    },
+    {
+     "field": "ta",
+     "period": "2026-09-30",
+     "basis": "期末",
+     "value": 44666839210.8
+    }
+   ],
+   "verdict": "未获取",
+   "threshold": "<25% 优，≥50% 关注（张 <25% 优、≥50% 关注）",
+   "note": "一年内到期非流动负债全额计入，偏保守"
+  },
+  "debt_ratio": {
+   "name": "资产负债率",
+   "value": 0.3690349302628609,
+   "unit": "%",
+   "formula": "负债合计 ÷ 资产总计",
+   "inputs": [
+    {
+     "field": "tl",
+     "period": "2026-09-30",
+     "basis": "期末",
+     "value": 16483623893.22
+    },
+    {
+     "field": "ta",
+     "period": "2026-09-30",
+     "basis": "期末",
+     "value": 44666839210.8
+    }
+   ],
+   "verdict": "中性",
+   "threshold": "制造业 <60%，>70% 预警（FRA 制造业 <60%；>70% 预警）",
+   "note": null,
+   "trend": {
+    "periods": [
+     "2025-12-31",
+     "2026-03-31",
+     "2026-06-30",
+     "2026-09-30"
+    ],
+    "values": [
+     0.3020282843654758,
+     0.31034979857387535,
+     0.3323777265372134,
+     0.3690349302628609
+    ],
+    "worsening": true
+   },
+   "verdict_raw": "健康",
+   "downgrade": "连续 3 期变差，由“健康”降为“中性”"
+  },
+  "fcf": {
+   "name": "自由现金流（TTM）",
+   "value": 2305764390.9599996,
+   "unit": "亿",
+   "formula": "经营现金流净额 − 购建长期资产支付的现金",
+   "inputs": [
+    {
+     "field": "ocf",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 4528243105.41
+    },
+    {
+     "field": "capex",
+     "period": "2026-09-30",
+     "basis": "TTM",
+     "value": 2222478714.4500003
+    }
+   ],
+   "verdict": "健康",
+   "threshold": ">0 且稳定；C 型扩张期为负需解释",
+   "note": null
+  },
+  "goodwill_eq": {
+   "name": "商誉 ÷ 归母权益",
+   "value": 0.007209920982934385,
+   "unit": "%",
+   "formula": "商誉 ÷ 归母所有者权益",
+   "inputs": [
+    {
+     "field": "goodwill",
+     "period": "2026-09-30",
+     "basis": "期末",
+     "value": 201572522.49
+    },
+    {
+     "field": "eq_parent",
+     "period": "2026-09-30",
+     "basis": "期末",
+     "value": 27957660419.18
+    }
+   ],
+   "verdict": "健康",
+   "threshold": "<10% 低，>30% 预警",
+   "note": null
+  },
+  "gm": {
+   "name": "毛利率（年初至今）",
+   "value": 0.4769458472495256,
+   "unit": "%",
+   "formula": "（营收−营业成本）÷ 营收",
+   "inputs": [
+    {
+     "field": "rev",
+     "period": "2026-09-30",
+     "basis": "累计",
+     "value": 31849895741.23
+    },
+    {
+     "field": "cost",
+     "period": "2026-09-30",
+     "basis": "累计",
+     "value": 16659220232.12
+    }
+   ],
+   "verdict": "中性",
+   "threshold": "同比下滑 >3pct 预警；B 型只做同期同业比",
+   "note": "同比 +0.4pct"
+  },
+  "ar_gap": {
+   "name": "应收增速 − 营收增速",
+   "value": -5.935791735552021,
+   "unit": "pct",
+   "formula": "（应收账款+应收票据+应收款项融资）同比 − 营收（年初至今）同比",
+   "inputs": [
+    {
+     "field": "ar+notes_rec+rec_fin",
+     "period": "2026-09-30",
+     "basis": "期末",
+     "value": 7494485062.05
+    },
+    {
+     "field": "ar+notes_rec+rec_fin",
+     "period": "2025-09-30",
+     "basis": "上年同期末",
+     "value": 4006935112.5699997
+    }
+   ],
+   "verdict": "正常",
+   "threshold": ">20pct 预警",
+   "note": null
+  },
+  "inv_gap": {
+   "name": "存货增速 − 营收增速",
+   "value": 70.75283991311274,
+   "unit": "pct",
+   "formula": "存货同比 − 营收（年初至今）同比",
+   "inputs": [
+    {
+     "field": "inv",
+     "period": "2026-09-30",
+     "basis": "期末",
+     "value": 17412692605.37
+    },
+    {
+     "field": "inv",
+     "period": "2025-09-30",
+     "basis": "上年同期末",
+     "value": 6602557644.05
+    }
+   ],
+   "verdict": "预警",
+   "threshold": ">20pct 预警",
+   "note": null
+  }
+ },
+ "red_flags": [
+  {
+   "no": 2,
+   "name": "应收异常",
+   "hit": false,
+   "level": "未触发",
+   "detail": "应收增速 − 营收增速 = -5.9pct（>20pct 触发）",
+   "inputs": [
+    "ar",
+    "notes_rec",
+    "rec_fin",
+    "rev"
+   ]
+  },
+  {
+   "no": 3,
+   "name": "存货+毛利率背离",
+   "hit": true,
+   "level": "红",
+   "detail": "存货增速 − 营收增速 = +70.8pct，毛利率同比 +0.4pct（存货跑赢营收且毛利率上升触发）",
+   "inputs": [
+    "inv",
+    "rev",
+    "cost"
+   ]
+  },
+  {
+   "no": 4,
+   "name": "在建工程异常",
+   "hit": false,
+   "level": "未触发",
+   "detail": "在建工程 ÷ 固定资产 = 12.6%（>50% 触发；是否长期不转固需年报附注）",
+   "inputs": [
+    "cip",
+    "fixed"
+   ]
+  },
+  {
+   "no": 5,
+   "name": "其他应收款大",
+   "hit": false,
+   "level": "未触发",
+   "detail": "其他应收款 ÷ 总资产 = 0.1%（>5% 触发）",
+   "inputs": [
+    "other_rec",
+    "ta"
+   ]
+  },
+  {
+   "no": 7,
+   "name": "商誉过高",
+   "hit": false,
+   "level": "未触发",
+   "detail": "商誉 ÷ 归母权益 = 0.7%（>30% 触发）",
+   "inputs": [
+    "goodwill",
+    "eq_parent"
+   ]
+  },
+  {
+   "no": 10,
+   "name": "大额减值",
+   "hit": false,
+   "level": "未触发",
+   "detail": "资产+信用减值 TTM 0.87 亿，占归母 TTM 0.6%（>30% 触发）",
+   "inputs": [
+    "asset_impair",
+    "credit_impair",
+    "np_parent"
+   ]
+  },
+  {
+   "no": 12,
+   "name": "现金流背离",
+   "hit": false,
+   "level": "未触发",
+   "detail": "净利润 TTM 146.94 亿，经营现金流 TTM 45.28 亿（净利为正而现金流为负触发）",
+   "inputs": [
+    "np",
+    "ocf"
+   ]
+  }
+ ],
+ "valuation": {
+  "method": "PE 历史分位 + PB 交叉；C 型配合增速看 PEG（历史增速，非预测）",
+  "current": {
+   "price": 173.36,
+   "price_source": "腾讯行情",
+   "total_shares": 1394737276.0,
+   "mcap": 241791654167.36002,
+   "quote_time": "20261103161430",
+   "pe_ttm": 16.58701980426851,
+   "pb": 8.648493848987517,
+   "ps_ttm": 6.016669535523969,
+   "peg_hist": 0.17669205102032515
+  },
+  "history": {
+   "months": 43,
+   "from": "2023-05",
+   "to": "2026-11",
+   "pe": {
+    "n": 32,
+    "median": 48.00563468880937,
+    "min": 15.57681891888365,
+    "max": 86.63207734398122,
+    "pct": 0.0625,
+    "position": "偏低区"
+   },
+   "pb": {
+    "n": 43,
+    "median": 12.13777600612648,
+    "min": 4.280992243465182,
+    "max": 41.529372948795114,
+    "pct": 0.23255813953488372,
+    "position": "偏低区"
+   }
+  },
+  "implied": [
+   "利润不增长时，按当前市值需 16.6 年归母利润才能“回本”",
+   "价格不变时，估值回到近 2 年 PE 中位数（48.0 倍）需要 TTM 归母利润下降 65%",
+   "PEG（用过去一年归母 TTM 增速 94%）= 0.18；未来增速需另行交叉验证"
+  ],
+  "notes": []
+ },
+ "notes": [
+  "年度数据不足 5 年，周期性只能靠行业判断；建议跑年报深检（--mode deep）确认分型"
+ ],
+ "gate": {
+  "status": "pass",
+  "reasons": [],
+  "reconciliations": [
+   {
+    "name": "income_statement_comparative",
+    "label": "同比基数来自本期原文比较列",
+    "period": "2025-09-30",
+    "status": "pass",
+    "note": "营业收入上年同期：一致；来源 eastmoney、sina、pdf_comparative"
+   },
+   {
+    "name": "balance_sheet_opening",
+    "label": "期初数来自本期原文期初列",
+    "period": "2025-12-31",
+    "status": "pass",
+    "note": "资产总计期初：一致；来源 eastmoney、sina、pdf"
+   },
+   {
+    "name": "cash_closing_balance",
+    "label": "期末现金 vs 货币资金",
+    "period": "2026-09-30",
+    "status": "pass",
+    "left": 6526683601.89,
+    "right": 6576625785.19,
+    "note": "货币资金 65.77 亿 − 期末现金及等价物 65.27 亿 = 0.50 亿（受限资金等，占 0.8%）"
+   },
+   {
+    "name": "retained_earnings_roll",
+    "label": "未分配利润滚动",
+    "period": "2026-09-30",
+    "status": "pass",
+    "note": "期末−期初−归母净利润 = -15.03 亿（应约等于 −分红 −提取盈余公积）"
+   }
+  ]
+ },
+ "jumps": [
+  {
+   "name": "非经常性损益/营业收入",
+   "value": 0.0195076292407535,
+   "mean": 0.0012915486467554162,
+   "std": 0.005,
+   "z": 3.6432161187996166,
+   "n": 12,
+   "text": "单季非经常性损益/营业收入 2.0%，过去 12 季均值 0.1%，偏离 +3.6σ"
+  }
+ ],
+ "bridge": {
+  "status": "ok",
+  "delta_op": 6523107274.459999,
+  "items": [
+   {
+    "name": "毛利",
+    "delta": 7392660923.1399975
+   },
+   {
+    "name": "税金及附加",
+    "delta": -62487691.599999994
+   },
+   {
+    "name": "销售费用",
+    "delta": 4343621.0
+   },
+   {
+    "name": "管理费用",
+    "delta": -5861287.650000006
+   },
+   {
+    "name": "研发费用",
+    "delta": -98690681.86000001
+   },
+   {
+    "name": "财务费用",
+    "delta": -1052484670.66
+   },
+   {
+    "name": "其他收益",
+    "delta": 7276179.960000001
+   },
+   {
+    "name": "投资收益",
+    "delta": 620337.76
+   },
+   {
+    "name": "公允价值变动",
+    "delta": 235215302.12
+   },
+   {
+    "name": "信用减值",
+    "delta": -1442025.94
+   },
+   {
+    "name": "资产减值",
+    "delta": 103911965.95
+   },
+   {
+    "name": "其他（资产处置等）",
+    "delta": 45302.24000167847
+   }
+  ],
+  "gross_split": {
+   "scale": 7250097708.888282,
+   "margin": 142563214.2517171
+  },
+  "text": "营业利润（年初至今）同比 +65.23 亿；主要拉动：毛利 +73.93 亿、公允价值变动 +2.35 亿、资产减值 +1.04 亿；主要拖累：财务费用 -10.52 亿、研发费用 -0.99 亿、税金及附加 -0.62 亿",
+  "gross_text": "毛利变化 +73.93 亿 = 规模效应 +72.50 亿（营收 +93.0% × 上年毛利率 47.2%）+ 毛利率效应 +1.43 亿（毛利率 +0.4pct）",
+  "volume_price": "INSUFFICIENT：量、价拆分需主营构成与销量数据，尚未接入"
+ },
+ "persistence": [
+  {
+   "kind": "经营性",
+   "type": "计算",
+   "text": "归母净利润（年初至今）同比 +50.45 亿，其中扣非部分 +48.39 亿、非经常性损益 +2.06 亿；变化主要来自扣非口径（经营性）"
+  },
+  {
+   "kind": "待判定",
+   "type": "计算",
+   "text": "单季非经常性损益/营业收入 2.0%，过去 12 季均值 0.1%，偏离 +3.6σ，可能是一次性事项或口径变化，需附注确认"
+  }
+ ],
+ "dupont": {
+  "current": {
+   "margin": 0.3627336077560863,
+   "turnover": 1.2173592410365908,
+   "multiplier": 1.5541568044069791,
+   "roe": 0.6862800693009675
+  },
+  "prev": {
+   "margin": 0.375543839374594,
+   "turnover": 1.2843093750113788,
+   "multiplier": 1.4429162611724082,
+   "roe": 0.695939397009001
+  },
+  "driver": "权益乘数",
+  "text": "ROE(TTM) 69.6% → 68.6%：净利率 37.6%→36.3%，周转 1.28→1.22，权益乘数 1.44→1.55；变化主要来自权益乘数"
+ },
+ "risks": [
+  {
+   "id": "collection",
+   "title": "回款变差",
+   "severity": "medium",
+   "direction": "negative",
+   "members": [
+    {
+     "key": "ocf_np",
+     "name": "净现比（TTM）",
+     "level": "warn",
+     "text": "净现比（TTM） 0.31（预警）"
+    },
+    {
+     "key": "core_cash",
+     "name": "核心利润获现率（TTM）",
+     "level": "warn",
+     "text": "核心利润获现率（TTM） 0.25（预警）"
+    }
+   ],
+   "explain": "应收增长快于收入且现金回笼偏弱，未见量价上行可解释，属需优先解释的风险",
+   "explain_type": "推断",
+   "next_metric": {
+    "metric": "ar_gap",
+    "op": "<=",
+    "value": 20.0,
+    "text": "应收增速差回落到 20pct 以内，收现比回到 1.0 以上"
+   }
+  },
+  {
+   "id": "expansion",
+   "title": "扩张期投入",
+   "severity": "medium",
+   "direction": "negative",
+   "members": [
+    {
+     "key": "flag3",
+     "name": "#3 存货+毛利率背离",
+     "level": "red",
+     "text": "红旗 #3 存货+毛利率背离：存货增速 − 营收增速 = +70.8pct，毛利率同比 +0.4pct（存货跑赢营收且毛利率上升触发）"
+    }
+   ],
+   "explain": "成长扩张型；以下信号可能同源于扩张期的产能与备货投入",
+   "explain_type": "推断",
+   "next_metric": {
+    "metric": "fcf",
+    "op": ">=",
+    "value": 0.0,
+    "text": "在建工程转固、自由现金流转正的节奏"
+   }
+  }
+ ],
+ "tracking_review": [],
+ "tracking_new": [
+  {
+   "id": "2026-09-30:collection",
+   "created_period": "2026-09-30",
+   "due_period": "2026-12-31",
+   "risk": "回款变差",
+   "severity": "medium",
+   "metric": "ar_gap",
+   "flag": null,
+   "op": "<=",
+   "value": 20.0,
+   "baseline": -5.935791735552021,
+   "text": "应收增速差回落到 20pct 以内，收现比回到 1.0 以上",
+   "proposition": "风险“回款变差”在 2026-12-31 仍将存在（可证伪条件：应收增速差回落到 20pct 以内，收现比回到 1.0 以上）",
+   "status": "open"
+  },
+  {
+   "id": "2026-09-30:expansion",
+   "created_period": "2026-09-30",
+   "due_period": "2026-12-31",
+   "risk": "扩张期投入",
+   "severity": "medium",
+   "metric": "fcf",
+   "flag": null,
+   "op": ">=",
+   "value": 0.0,
+   "baseline": 2305764390.9599996,
+   "text": "在建工程转固、自由现金流转正的节奏",
+   "proposition": "风险“扩张期投入”在 2026-12-31 仍将存在（可证伪条件：在建工程转固、自由现金流转正的节奏）",
+   "status": "open"
+  }
+ ],
+ "headline": "新易盛 2026-09-30：单季营业收入 109.40 亿（同比 +80.3%）；单季归母净利润 38.43 亿（同比 +61.2%）；净现比 TTM 0.31。3 个预警信号归并为 2 组待解释风险（回款变差；扩张期投入）（扣非归母净利润含单一来源数据，待核验，未写入本句）。"
+}
