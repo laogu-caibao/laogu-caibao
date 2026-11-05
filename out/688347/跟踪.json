@@ -1,0 +1,64 @@
+{
+ "items": [
+  {
+   "id": "2026-09-30:solvency",
+   "created_period": "2026-09-30",
+   "due_period": "2026-12-31",
+   "risk": "偿债与流动性压力",
+   "severity": "high",
+   "metric": "re_cash_short",
+   "flag": null,
+   "op": ">=",
+   "value": 1.0,
+   "baseline": null,
+   "text": "现金短债比回到 1 以上、有息负债下降",
+   "proposition": "风险“偿债与流动性压力”在 2026-12-31 仍将存在（可证伪条件：现金短债比回到 1 以上、有息负债下降）",
+   "status": "open"
+  },
+  {
+   "id": "2026-09-30:asset_quality",
+   "created_period": "2026-09-30",
+   "due_period": "2026-12-31",
+   "risk": "资产质量与减值",
+   "severity": "high",
+   "metric": null,
+   "flag": null,
+   "op": null,
+   "value": null,
+   "baseline": null,
+   "text": "其他应收款、商誉与减值是否继续扩大（需附注）",
+   "proposition": "风险“资产质量与减值”在 2026-12-31 仍将存在（可证伪条件：其他应收款、商誉与减值是否继续扩大（需附注））",
+   "status": "manual"
+  },
+  {
+   "id": "2026-09-30:price_up",
+   "created_period": "2026-09-30",
+   "due_period": "2026-12-31",
+   "risk": "量价上行带动营运资本扩张",
+   "severity": "low",
+   "metric": "core_cash",
+   "flag": null,
+   "op": ">=",
+   "value": 1.0,
+   "baseline": 7.1626637635196175,
+   "text": "核心利润获现率回到 1.0 以上；若价格回落而应收、存货仍高增，转为真实风险",
+   "proposition": "风险“量价上行带动营运资本扩张”在 2026-12-31 仍将存在（可证伪条件：核心利润获现率回到 1.0 以上；若价格回落而应收、存货仍高增，转为真实风险）",
+   "status": "open"
+  },
+  {
+   "id": "2026-09-30:earnings_quality",
+   "created_period": "2026-09-30",
+   "due_period": "2026-12-31",
+   "risk": "利润含金量（非经常性/非主业）",
+   "severity": "low",
+   "metric": "np_ded_ratio",
+   "flag": null,
+   "op": ">=",
+   "value": 0.8,
+   "baseline": 0.7204018181429105,
+   "text": "扣非占归母回到 80% 以上",
+   "proposition": "风险“利润含金量（非经常性/非主业）”在 2026-12-31 仍将存在（可证伪条件：扣非占归母回到 80% 以上）",
+   "status": "open"
+  }
+ ]
+}
